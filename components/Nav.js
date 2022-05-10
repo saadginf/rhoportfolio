@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillHome, AiTwotoneMail } from "react-i
 import Link from "next/link";
 
 
-export default function Nav() {
+export default function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
