@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Satisfy&display=swap');
+
+
+.aboutmodule {
+    width: 100%;
+    background-color: transparent;
+    flex-direction: column;
+display: flex;
+}
+
+.aboutwrapper {
+display: flex;
+flex-direction: row;
+
+height: auto;
+}
+
+
+
+.blurb {
+width: 65%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+height: 70vh;
+align-items: center;
+font-family: "Quicksand", sans-serif;
+color: black;
+padding: 3rem;
+margin-right: 1rem;
+background-color:rgba(238, 174, 63, 0.75);
+}
+
+.blurb p b {
+    font-size: 18px;
+}
+
+
+.skills {
+width: 45%;
+display: flex;
+justify-content: center;
+font-family: "Quicksand", sans-serif;
+color: black;
+text-align: center;
+height: 70vh;
+align-items: center;
+padding:2rem;
+background-color: rgba(105, 187, 219, 0.75)
+}
