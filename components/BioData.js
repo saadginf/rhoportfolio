@@ -36,7 +36,7 @@ function BioData() {
               <br></br>
               Being that I am from a largely people-based background, I feel I have a lot to offer. As a Junior Dev, I think to how I can write more efficient code that peers can
               build upon and manipulate. I think to learning what makes more scalable databases, and apps
-               run  as quickly and efficiently as possible over servers. That is to say I am always thinking about how my work can improve other's
+               run  as quickly and efficiently as possible over servers. That is to say I am always thinking about how my work can improve other&apos;s
               experiences. 
               <br></br>
               <br></br>

@@ -7,6 +7,7 @@ import ImageSlider from '../components/ImageSlider';
 import { SliderData } from '../components/SliderData';
 import BioData from '../components/BioData.js'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -136,11 +137,13 @@ export default function Home() {
       }
   },
   }}  className={styles.imgshadowpink}></motion.div>
-        <img
+        <Image
           src="/rho.png"
           alt="Rhoda Phillips-Osei"
           className={styles.homeimg}
-        ></img>
+          width='400px'
+          height='500px'
+        ></Image>
       </div>
     </motion.div>
     </div>
