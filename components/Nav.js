@@ -22,13 +22,13 @@ export default function Navbar() {
               <Link href="https://linkedin.com/in/rphillipsosei">
                 <a id="navlink">
                   {/* <AiFillLinkedin /> */}
-                LINKEDIN
+                LINK
                 </a>
               </Link>
               <Link href="https://github.com/rphillipsosei">
                 <a id="navlink">
                   {/* <AiFillGithub /> */}
-                GITHUB
+                GIT
                 </a>
               </Link>
               <Link href="/contact">
