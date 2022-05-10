@@ -166,3 +166,14 @@ font-family: "Quicksand"
   justify-content: center;
   width: 100%
 }
+
+@media screen and (max-width: 480px){
+
+  #home-btn {
+    background-color: transparent;
+    font-size: 20px;
+    width: 10rem;
+    margin-right: 0rem;
+    margin-bottom: 0.5rem;
+  }
+}

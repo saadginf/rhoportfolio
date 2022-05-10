@@ -15,7 +15,19 @@ export default function Home() {
   const [projectsIsOpen, setProjectsIsOpen] = useState(false);
 
   return (
-    <div>
+    <motion.div 
+    initial="hidden" animate="visible" variants={{ 
+      hidden: {
+          opacity: 0
+      },
+  visible: {
+      opacity: 1,
+      transition: {
+          delay: .7
+      }
+  },
+  }}
+  className={styles.homewrapper}>
     <Head>
  <title>Rhoda Phillips- Osei | Web Dev </title>
 </Head>
@@ -144,7 +156,7 @@ export default function Home() {
         ></img>
       </div>
     </motion.div>
-    </div>
+    </motion.div>
   );
 }
 
