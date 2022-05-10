@@ -112,7 +112,7 @@ export default function Home() {
           delay: 1.2
       }
   },
-  }} className={styles.imgshadowteal}></motion.div>
+  }} className={styles.imgshadowpink}></motion.div>
         <motion.div 
     initial="hidden" animate="visible" variants={{ 
       hidden: {
@@ -136,17 +136,21 @@ export default function Home() {
           delay: 1.4
       }
   },
-  }}  className={styles.imgshadowpink}></motion.div>
-        <Image
+  }}  className={styles.imgshadowteal}></motion.div>
+          <img
           src="/rho.png"
           alt="Rhoda Phillips-Osei"
           className={styles.homeimg}
-          width='400px'
-          height='500px'
-        ></Image>
+        ></img>
       </div>
     </motion.div>
     </div>
   );
 }
 
+const homeImg = {
+  position: "relative",
+  top: "20%",
+  zIndex: "4",
+  right: "5%",
+}

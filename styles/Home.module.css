@@ -12,8 +12,10 @@
   width: 45vw;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   z-index: 0;
   margin-left: 2rem;
+  
 }
 
 .leftsidehome {
@@ -37,7 +39,7 @@
 
 }
 
-.imgshadowteal {
+.imgshadowpink {
   position: relative;
   z-index: 100;
 border: 3px solid black;
@@ -72,7 +74,7 @@ background-image: url("https://www.transparenttextures.com/patterns/cartographer
 }
 
 
-.imgshadowpink {
+.imgshadowteal {
   position: relative;
   z-index: 100;
   background-color: #2093a5;
@@ -140,6 +142,14 @@ background-image: url("https://www.transparenttextures.com/patterns/cartographer
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.imgcontainer {
+  width: 70%;
+  background-color: grey;
+  opacity: 50%;
+  display: flex;
+  
 }
 
 
