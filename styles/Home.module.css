@@ -476,3 +476,105 @@
     top: 43%;
   }
 }
+
+@media screen and (max-width: 1440px) {
+  .homewrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    height: 200%;
+    flex-direction: column;
+  }
+  .leftsidehome p {
+    flex-direction: column;
+    position: absolute;
+    width: 105vw;
+    top: 23%;
+    margin-left: 0;
+    left: 1.5%;
+    text-align: center;
+  }
+
+  .leftsidehome h1 {
+    font-size: 450%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .leftsidehome h3 {
+    margin-top: -0.5rem;
+    margin-left: 0rem;
+    font-size: 200%;
+    font-family: "Quicksand", sans-serif;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+  }
+
+  .homebtns {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    left: 25%;
+    position: relative;
+    /* text-align: center; */
+    /* align-self: center; */
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 0vw;
+    padding: 1rem;
+  }
+  .rightsidehome {
+    height: 50%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    margin-left: 0rem;
+  }
+  .leftsidehome {
+    height: 100vh;
+    width: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+  }
+
+  .homeimg {
+    position: absolute;
+    left: 33.7%;
+    top: 9.4%;
+    height: 62.7%;
+    width: 38.1%;
+  }
+
+  .imgshadowteal {
+    height: 25.5%;
+    width: 38.5%;
+    left: 29%;
+    top: 40%;
+  }
+
+  .imgshadoworange {
+    height: 25.5%;
+    width: 38.5%;
+    left: 38%;
+    top: 52%;
+  }
+
+  .imgshadowpink {
+    height: 25.5%;
+    width: 38.5%;
+    left: 33.5%;
+    top: 46.8%;
+  }
+}
