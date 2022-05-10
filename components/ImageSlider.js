@@ -38,7 +38,7 @@ const ImageSlider = ({ slides }) => {
           },
         },
       }}
-      className="wrapper"
+        className={styles.projectwrapper}
     >
       <section className={styles.slider}>
         <div className={styles.imgcontainer}>
