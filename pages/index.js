@@ -34,7 +34,7 @@ export default function Home() {
     className={styles.container}>
       <div className={styles.leftsidehome}>
         <p>
-          <h1>Rhoda Phillips-Osei    </h1>
+          <h1>RHODA PHILLIPS-OSEI</h1>
           <h3>Full Stack Web Developer</h3>
           <div className={styles.homebtns}>
             <button id="home-btn" onClick={() => setAboutIsOpen(true)}>
