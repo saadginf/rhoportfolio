@@ -57,7 +57,7 @@ const ImageSlider = ({ slides }) => {
                   <div className={styles.slidercontent}>
                     <div className={styles.projecttitle}>
                       <i>{slide.title}</i><br></br>
-                      <p>(hover or click to zoom in)</p>
+                      <p>(hover to zoom in)</p>
                     </div>
                     <motion.div 
                     whileHover={{
