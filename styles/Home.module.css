@@ -273,7 +273,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .homewrapper {
     display: flex;
     justify-content: center;
@@ -288,12 +288,12 @@
     width: 105vw;
     top: 15%;
     margin-left: 0;
-    left: 0%;
+    left: 1.5%;
     text-align: center;
   }
 
   .leftsidehome h1 {
-    font-size: 250%;
+    font-size: 450%;
     width: 100%;
     text-align: center;
   }
@@ -301,7 +301,7 @@
   .leftsidehome h3 {
     margin-top: -0.5rem;
     margin-left: 0rem;
-    font-size: 150%;
+    font-size: 200%;
     font-family: "Quicksand", sans-serif;
     font-style: italic;
     width: 100%;
@@ -348,7 +348,7 @@
   .homeimg {
     position: absolute;
     left: 18.2%;
-    top: 6.5%;
+    top: 6.6%;
     height: 57.7%;
     width: 69.5%;
   }
@@ -372,5 +372,107 @@
     width: 70%;
     left: 18%;
     top: 34%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .homewrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    height: 200%;
+    flex-direction: column;
+  }
+  .leftsidehome p {
+    flex-direction: column;
+    position: absolute;
+    width: 105vw;
+    top: 23%;
+    margin-left: 0;
+    left: 1.5%;
+    text-align: center;
+  }
+
+  .leftsidehome h1 {
+    font-size: 450%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .leftsidehome h3 {
+    margin-top: -0.5rem;
+    margin-left: 0rem;
+    font-size: 200%;
+    font-family: "Quicksand", sans-serif;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+  }
+
+  .homebtns {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    left: 25%;
+    position: relative;
+    /* text-align: center; */
+    /* align-self: center; */
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 0vw;
+    padding: 1rem;
+  }
+  .rightsidehome {
+    height: 50%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    margin-left: 0rem;
+  }
+  .leftsidehome {
+    height: 100vh;
+    width: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+  }
+
+  .homeimg {
+    position: absolute;
+    left: 32.2%;
+    top: 10.6%;
+    height: 57.7%;
+    width: 40.1%;
+  }
+
+  .imgshadowteal {
+    height: 25.5%;
+    width: 40.5%;
+    left: 28%;
+    top: 37.5%;
+  }
+
+  .imgshadoworange {
+    height: 25.5%;
+    width: 40.5%;
+    left: 36%;
+    top: 48%;
+  }
+
+  .imgshadowpink {
+    height: 25.5%;
+    width: 40.5%;
+    left: 32%;
+    top: 43%;
   }
 }
