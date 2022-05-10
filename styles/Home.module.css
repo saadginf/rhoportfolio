@@ -578,3 +578,16 @@
     top: 46.8%;
   }
 }
+
+@media screen and (max-width: 1700px) {
+  .leftsidehome h1 {
+    font-size: 480%;
+  }
+
+  .leftsidehome h3 {
+    margin-top: -0.5rem;
+    margin-left: 0.5rem;
+    font-size: 200%;
+    
+  }
+}
