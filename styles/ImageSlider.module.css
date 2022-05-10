@@ -87,7 +87,7 @@
   font-family: "Quicksand", sans-serif;
   font-size: 100%;
   z-index: 0;
-  padding: 1rem;
+  padding-top: 0.6rem;
   text-align: center;
   margin-top: 0.5rem;
   min-height: 100px;
@@ -116,6 +116,17 @@
 }
 
 @media screen and (max-width: 1920px) {
+  .projectdesc {
+    width: 39vw;
+  }
+
+  .projecttitle {
+    width: 39vw;
+  }
+
+  .header h1 {
+    width: 39vw;
+  }
 }
 @media screen and (max-width: 1700px) {
   .header h1 {
@@ -178,7 +189,7 @@
 
   .projecttitle {
     width: 84vw;
-    margin-top: -3rem;
+    margin-top: -4rem;
   }
 
   .projectcontainer {
@@ -187,7 +198,7 @@
 
   .header h1 {
     width: 84vw;
-    margin-top: -6rem;
+    margin-top: -7rem;
   }
 
 }
