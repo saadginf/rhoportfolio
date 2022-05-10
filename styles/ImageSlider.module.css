@@ -118,12 +118,47 @@
 @media screen and (max-width: 1920px) {
 }
 @media screen and (max-width: 1700px) {
+  .header h1 {
+    margin-top: -6rem;
+  }
+
+  .projecttitle {
+    margin-top: -3rem;
+  }
 }
-@media screen and (max-width: 1440px) {
-}
-@media screen and (max-width: 1280px) {
-}
+
+
 @media screen and (max-width: 900px) {
+  .rightarrow {
+    right: -35%;
+    font-size: 300%;
+    top: 40%
+  }
+
+  .leftarrow {
+    left: -35%;
+    font-size: 300%;
+    top: 40%
+  }
+
+  .projectdesc {
+    width: 85vw;
+
+  }
+
+  .projecttitle {
+    width: 85vw;
+    margin-top: -3rem;
+  }
+
+  .projectcontainer {
+    width: 170%;
+  }
+
+  .header h1 {
+    width: 85vw;
+    margin-top: -6rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .rightarrow {
@@ -154,6 +189,5 @@
     width: 84vw;
     margin-top: -6rem;
   }
-
 
 }
