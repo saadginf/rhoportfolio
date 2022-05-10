@@ -170,10 +170,21 @@ font-family: "Quicksand"
 @media screen and (max-width: 480px){
 
   #home-btn {
-    background-color: transparent;
-    font-size: 20px;
-    width: 10rem;
+    /* background-color: transparent; */
+    /* font-size: 20px; */
+    /* width: 10rem; */
     margin-right: 0rem;
     margin-bottom: 0.5rem;
   }
+
+
+
+  /* @media screen and (max-width: 768px){
+
+    #home-btn {
+    
+      margin-bottom: 2rem;
+    }
+
+} */
 }

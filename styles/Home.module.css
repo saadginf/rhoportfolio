@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500&family=Rock+Salt&family=Satisfy&family=Yellowtail&display=swap");
 
-
-
 .container {
   display: flex;
   width: 100vw;
@@ -144,14 +142,13 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .homewrapper {
     display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 0%;
-  height: 200%;
-  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    height: 200%;
+    flex-direction: column;
   }
   .leftsidehome p {
     flex-direction: column;
@@ -162,7 +159,7 @@
     margin-left: 0;
     left: 0%;
     text-align: center;
-    
+
     /* position: relative;
     top: 120%;
     left: 48%;
@@ -192,7 +189,7 @@
     font-style: italic;
     width: 100%;
     text-align: center;
-  
+
     /* margin-top: -0.5rem;
     font-size: 130%;
     font-family: "Quicksand", sans-serif;
@@ -205,12 +202,12 @@
   .homebtns {
     width: 50%;
     justify-content: center;
-align-items: center;
-left: 23%;
+    align-items: center;
+    left: 23%;
     position: relative;
     /* text-align: center; */
     /* align-self: center; */
-    margin-top: 0.7rem;
+    margin-top: 1.2rem;
     display: flex;
     flex-direction: column;
   }
@@ -273,5 +270,107 @@ left: 23%;
     width: 70%;
     left: 18%;
     top: 29%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homewrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    height: 200%;
+    flex-direction: column;
+  }
+  .leftsidehome p {
+    flex-direction: column;
+    position: absolute;
+    width: 105vw;
+    top: 15%;
+    margin-left: 0;
+    left: 0%;
+    text-align: center;
+  }
+
+  .leftsidehome h1 {
+    font-size: 250%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .leftsidehome h3 {
+    margin-top: -0.5rem;
+    margin-left: 0rem;
+    font-size: 150%;
+    font-family: "Quicksand", sans-serif;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+  }
+
+  .homebtns {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    left: 25%;
+    position: relative;
+    /* text-align: center; */
+    /* align-self: center; */
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 0vw;
+    padding: 1rem;
+  }
+  .rightsidehome {
+    height: 50%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    margin-left: 0rem;
+  }
+  .leftsidehome {
+    height: 100vh;
+    width: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+  }
+
+  .homeimg {
+    position: absolute;
+    left: 18.2%;
+    top: 6.5%;
+    height: 57.7%;
+    width: 69.5%;
+  }
+
+  .imgshadowteal {
+    height: 33%;
+    width: 70.5%;
+    left: 9.9%;
+    top: 30.1%;
+  }
+
+  .imgshadoworange {
+    height: 30.5%;
+    width: 70.5%;
+    left: 25.1%;
+    top: 37.8%;
+  }
+
+  .imgshadowpink {
+    height: 30.5%;
+    width: 70%;
+    left: 18%;
+    top: 34%;
   }
 }
