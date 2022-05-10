@@ -49,3 +49,41 @@ align-items: center;
 padding:2rem;
 background-color: rgba(105, 187, 219, 0.75)
 }
+
+
+@media screen and (max-width: 1920px) {}
+@media screen and (max-width: 1700px) {}
+@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 900px) {}
+@media screen and (max-width: 480px) {
+    .aboutwrapper {
+        display: flex;
+        flex-direction: column;
+
+        }
+
+        .blurb {
+            width: 168%; 
+            height: 53vh;
+            position: absolute;
+            left: -33%;
+            top: -10%;
+            font-size: 12px;
+            padding: 1rem;
+        }
+
+        .blurb p b {
+            font-size: 14px;
+        }
+
+        .skills {
+            width: 168%; 
+            position: absolute;
+            font-size: 12px;
+            height: 30vh;
+            padding: 1rem;
+            left: -33%;
+            bottom:8%
+        }
+}
