@@ -49,8 +49,8 @@ function BioData() {
 
           <div className={styles.skills}>
             <p>
-              <h2 align="center">SKILLS</h2>
-              <br></br>
+              <h2 align="center"><u>SKILLS</u></h2>
+         
               <b>Front End Technologies</b>
               <br></br>
               Javascript (jQuery, AJAX, React, Next.js), HTML, CSS, SCSS/SASS,

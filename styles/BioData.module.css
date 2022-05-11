@@ -86,7 +86,7 @@ background-color: rgba(105, 187, 219, 0.75)
     
             .blurb {
                 width: 168%; 
-                height: 53vh;
+                height: 58vh;
                 position: absolute;
                 left: -32.9%;
                 top: -10%;
@@ -102,10 +102,14 @@ background-color: rgba(105, 187, 219, 0.75)
                 width: 168%; 
                 position: absolute;
                 font-size: 12px;
-                height: 30vh;
+                height: 35vh;
                 padding: 1rem;
                 left: -32.9%;
                 bottom:8%;
-                top: 65%;
+                top: 68%;
+            }
+
+            .skills h2 {
+                font-size: 16px;
             }
     }
