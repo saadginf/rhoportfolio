@@ -14,7 +14,7 @@ top: 20%;
 
 .formbox {
   display: flex;
-  width: 41.5vw;
+  width: 80vw;
   height: 49vh;
   background-color: rgba(242, 242, 242, 0.65);
   font-family: "Quicksand", sans-serif;
@@ -46,7 +46,7 @@ top: 20%;
 
   font-family: "Quicksand", sans-serif;
   background-color: rgba(105, 187, 219, 0.65);
-  width: 41.5vw;
+  width: 80vw;
   font-size: 200%;
   z-index: 0;
   margin-bottom: 1rem;
@@ -76,8 +76,8 @@ top: 20%;
 
 @media screen and (max-width: 900) {
   
-}
+} */
 
 @media screen and (max-width: 480px) {
 
-} */
+}

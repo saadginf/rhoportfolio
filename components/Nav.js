@@ -1,6 +1,6 @@
 import React from "react";
-import { Nav } from "react-bootstrap/Nav";
-// import { AiFillGithub, AiFillLinkedin, AiFillHome, AiTwotoneMail } from "react-icons/Ai";
+import { AiFillGithub, AiFillLinkedin, AiFillHome, AiTwotoneMail } from "react-icons/Ai";
+import { MdEmail } from "react-icons/Md";
 import Link from "next/link";
 
 
@@ -13,28 +13,24 @@ export default function Navbar() {
           <div>
            <Link href="/">
           <a id="homelink">
-            {/* <AiFillHome /> */}
-            HOME
+            <AiFillHome />
           </a>
         </Link>
         
             <div id="social-icons">
               <Link href="https://linkedin.com/in/rphillipsosei">
                 <a id="navlink">
-                  {/* <AiFillLinkedin /> */}
-                LINK
+                  <AiFillLinkedin />
                 </a>
               </Link>
               <Link href="https://github.com/rphillipsosei">
                 <a id="navlink">
-                  {/* <AiFillGithub /> */}
-                GIT
+                  <AiFillGithub />
                 </a>
               </Link>
               <Link href="/contact">
                 <a id="navlink">
-                  {/* <AiTwotoneMail /> */}
-                  MSG
+                  <MdEmail />
                 </a>
               </Link>
             </div>
