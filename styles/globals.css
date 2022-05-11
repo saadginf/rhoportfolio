@@ -23,8 +23,7 @@ a {
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
   padding-left: 0.7rem;
-  padding-right: 0.7rem;
-  border-bottom: 2px;
+  align-items: center;
 }
 
 #homelink {
@@ -49,11 +48,11 @@ a {
 }
 
 #social-icons {
-  /* margin-top: 0.5rem; */
   width: 10rem;
   font-size: 30px;
   display: flex;
   justify-content: space-between;
+  margin-left: 3rem;
 }
 
 #modal-btn {
@@ -72,7 +71,7 @@ a {
 #home-btn:hover {
   background-color: #2093A5;
   color: #ffff;
-  border: none;
+  /* border: none; */
     font-style: italic;
 }
 
@@ -163,26 +162,6 @@ font-family: "Quicksand"
   display: flex !important;
   justify-content: center;
   width: 100%
-}
-
-@screen and (max-width: 1920) {
-  
-}
-
-@screen and (max-width: 1700) {
-  
-}
-
-@screen and (max-width: 1440) {
-  
-}
-
-@screen and (max-width: 1280) {
-  
-}
-
-@screen and (max-width: 900) {
-  
 }
 
 @media screen and (max-width: 480px){
