@@ -57,6 +57,13 @@ background-color: rgba(105, 187, 219, 0.75)
 @media screen and (max-width: 1280px) {}
 
 
+    .aboutmodule {
+        width: 160%;
+        position: absolute;
+        right: -30%;
+        
+    }
+
 @media screen and (max-width: 900px) {
     .aboutwrapper {
         display: flex;
