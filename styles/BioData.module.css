@@ -88,7 +88,7 @@ background-color: rgba(105, 187, 219, 0.75)
                 width: 168%; 
                 height: 53vh;
                 position: absolute;
-                left: -37.3%;
+                left: -32.9%;
                 top: -10%;
                 font-size: 12px;
                 padding: 1rem;
@@ -104,7 +104,8 @@ background-color: rgba(105, 187, 219, 0.75)
                 font-size: 12px;
                 height: 30vh;
                 padding: 1rem;
-                left: -37.3%;
-                bottom:8%
+                left: -32.9%;
+                bottom:8%;
+                top: 65%;
             }
     }
