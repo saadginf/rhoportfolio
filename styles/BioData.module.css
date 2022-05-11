@@ -65,7 +65,7 @@ background-color: rgba(105, 187, 219, 0.75)
 
         .blurb {
             width: 168%; 
-            height: 60%;
+            height: 70%;
             position: absolute;
             left: -33%;
             top: -10%;
@@ -84,7 +84,7 @@ background-color: rgba(105, 187, 219, 0.75)
             height: auto;
             padding: 0.5rem;
             left: -33%;
-            top: 55%
+            top: 65%
             /* bottom:8% */
 
         }
