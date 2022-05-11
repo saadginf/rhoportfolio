@@ -43,10 +43,11 @@ top: 20%;
 .header h1 {
   display: flex;
   justify-content: center;
-  width: 41.5vw;
-  background-color: #2093a5;
+
   font-family: "Quicksand", sans-serif;
-  font-size: 50px;
+  background-color: rgba(105, 187, 219, 0.65);
+  width: 41.5vw;
+  font-size: 200%;
   z-index: 0;
   margin-bottom: 1rem;
 }
@@ -57,7 +58,7 @@ top: 20%;
     width: 10rem;
 }
 
-@media screen and (max-width: 1920) {
+/* @media screen and (max-width: 1920) {
   
 }
 
@@ -78,11 +79,5 @@ top: 20%;
 }
 
 @media screen and (max-width: 480px) {
-  .formbox { 
-    width: 100%
-}
 
-.header h1 {
-  width: 100%
-}
-}
+} */
