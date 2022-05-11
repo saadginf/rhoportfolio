@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Satisfy&display=swap');
+
+.contactpage {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 88%;
+  height: 65vh;
+
+  align-items: center;
+  position: absolute;
+top: 20%;
+}
+
+.formbox {
+  display: flex;
+  width: 41.5vw;
+  height: 49vh;
+  background-color: rgba(242, 242, 242, 0.65);
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1.75rem;
+  padding-left: 1.75rem;
+  margin-top: 0.5rem;
+  flex-direction: column;
+  padding-top: 1rem;
+  align-self: center;
+}
+
+.contactwrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+}
+
+
+
+.header h1 {
+  display: flex;
+  justify-content: center;
+  width: 41.5vw;
+  background-color: #2093a5;
+  font-family: "Quicksand", sans-serif;
+  font-size: 50px;
+  z-index: 0;
+  margin-bottom: 1rem;
+}
+
+
+
+#input {
+    width: 10rem;
+}
+
+@media screen and (max-width: 1920) {
+  
+}
+
+@media screen and (max-width: 1700) {
+  
+}
+
+@media screen and (max-width: 1440) {
+  
+}
+
+@media screen and (max-width: 1280) {
+  
+}
+
+@media screen and (max-width: 900) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  .formbox { 
+    width: 100%
+}
+
+.header h1 {
+  width: 100%
+}
+}

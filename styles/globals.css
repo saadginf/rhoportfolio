@@ -167,24 +167,43 @@ font-family: "Quicksand"
   width: 100%
 }
 
+@screen and (max-width: 1920) {
+  
+}
+
+@screen and (max-width: 1700) {
+  
+}
+
+@screen and (max-width: 1440) {
+  
+}
+
+@screen and (max-width: 1280) {
+  
+}
+
+@screen and (max-width: 900) {
+  
+}
+
 @media screen and (max-width: 480px){
 
   #home-btn {
-    /* background-color: transparent; */
-    /* font-size: 20px; */
-    /* width: 10rem; */
     margin-right: 0rem;
     margin-bottom: 0.5rem;
   }
 
+form {
+  width: 120%
+}
 
+input {
+  margin-bottom: 1rem;
+  width: 100%;
+}
 
-  /* @media screen and (max-width: 768px){
-
-    #home-btn {
-    
-      margin-bottom: 2rem;
-    }
-
-} */
+textarea {
+  width: 100%;
+}
 }
