@@ -60,10 +60,13 @@ background-color: rgba(105, 187, 219, 0.75)
     .aboutmodule {
         width: 160%;
         position: absolute;
-        right: -30%;
-        
+        right: -34%;
+        top: 10%;
     }
 
+    .skills {
+        width:30%;
+    }
 @media screen and (max-width: 900px) {
     .aboutwrapper {
         display: flex;
