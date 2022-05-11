@@ -55,7 +55,48 @@ background-color: rgba(105, 187, 219, 0.75)
 @media screen and (max-width: 1700px) {}
 @media screen and (max-width: 1440px) {}
 @media screen and (max-width: 1280px) {}
-@media screen and (max-width: 900px) {}
+
+
+@media screen and (max-width: 900px) {
+    .aboutwrapper {
+        display: flex;
+        flex-direction: column;
+
+        }
+
+        .blurb {
+            width: 168%; 
+            height: 40%;
+            position: absolute;
+            left: -33%;
+            top:10%;
+            font-size: 10px;
+            padding: 1rem;
+        }
+
+        .blurb p b {
+            font-size: 14px;
+        }
+
+        .skills {
+            width: 168%; 
+            position: absolute;
+            font-size: 10px;
+            height: 30%;
+            padding: 0.5rem;
+            left: -33%;
+            top: 58%
+            /* bottom:8% */
+
+        }
+
+        .skills h2 {
+            font-size: 18px;
+            margin-bottom: -0.5rem;
+        }
+}
+
+
 @media screen and (max-width: 480px) {
     .aboutwrapper {
         display: flex;

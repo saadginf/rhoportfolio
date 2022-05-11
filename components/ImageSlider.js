@@ -82,7 +82,7 @@ const ImageSlider = ({ slides }) => {
                       <p className={styles.viewapp}>
                         <b>
                           <u>
-                            <a>
+                            <a href={slide.github}>
                               View source code on Github
                             </a>
                           </u>
