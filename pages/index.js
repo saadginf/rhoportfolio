@@ -45,7 +45,7 @@ export default function Home() {
   }}
     className={styles.container}>
       <div className={styles.leftsidehome}>
-        <p>
+        <div id={styles.hometext}>
           <h1>RHODA PHILLIPS-OSEI</h1>
           <h3>Full Stack Web Developer</h3>
           <div className={styles.homebtns}>
@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             )}
           </div>
-        </p>
+        </div>
       </div>
       <div className={styles.rightsidehome}>
         <motion.div 

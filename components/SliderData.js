@@ -11,7 +11,7 @@ export const SliderData = [
     id: "tweeter"
   },
   {
-    image: "/moonbeamdemo6.gif",
+    image: "/moonbeamdemo.gif",
     title: "Moonbeam Trading Company",
     description: "A company website to be deployed soon",
     technologies: "React, CSS, Material UI, Theme UI",
@@ -21,7 +21,7 @@ export const SliderData = [
     id: "moonbeam"
   },
   {
-    image: "/tinyappdemo2.gif",
+    image: "/tinyappdemo.gif",
     title: "Tinyapp",
     description: "An app where users can create, edit, and store shortened links for everyday websites.",
     technologies: "Express, Node.js, bCrypt, EJS, Bootstrap",
@@ -31,7 +31,7 @@ export const SliderData = [
     id: "tinyapp"
   },
   {
-    image: "/profile2.png",
+    image: "/profile.png",
     title: "Profile App",
     description: "This very app! For you to get to know more about me.",
     technologies: "React, NextJS, Framer Motion",
