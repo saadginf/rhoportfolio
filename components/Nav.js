@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGithub, AiFillLinkedin, AiFillHome, AiTwotoneMail } from "react-icons/Ai";
+import { AiFillGithub, AiFillLinkedin, AiFillHome } from "react-icons/Ai";
 import { MdEmail } from "react-icons/Md";
 import Link from "next/link";
 
