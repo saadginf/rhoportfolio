@@ -5,6 +5,9 @@ import styles from "../styles/ImageSlider.module.css";
 import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
 import { motion } from "framer-motion";
 
+const demo = {
+  borderRadius: "10px",
+};
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
@@ -38,13 +41,13 @@ const ImageSlider = ({ slides }) => {
           },
         },
       }}
-        className={styles.projectwrapper}
+      className={styles.projectwrapper}
     >
       <section className={styles.slider}>
         <div className={styles.imgcontainer}>
           <BiLeftArrow className={styles.leftarrow} onClick={prevSlide} />
           <div align="center" className={styles.header}>
-            <h1>Projects</h1>
+            <h1>PROJECTS</h1>
           </div>
           <BiRightArrow className={styles.rightarrow} onClick={nextSlide} />
           {SliderData.map((slide, index) => {
@@ -58,14 +61,16 @@ const ImageSlider = ({ slides }) => {
                     <div className={styles.projecttitle}>
                       <i>{slide.title}</i>
                     </div>
-                    <motion.div 
-                    whileHover={{
-                      scale: 1.5,
-                      transition: { duration: 1 },
-                    }}
-                    whileTap={{ scale: 0.9 }}
-                    className={styles.projectcontainer}>
+                    <motion.div
+                      whileHover={{
+                        scale: 1.5,
+                        transition: { duration: 1 },
+                      }}
+                      whileTap={{ scale: 0.9 }}
+                      className={styles.projectcontainer}
+                    >
                       <Image
+                        style={demo}
                         src={slide.image}
                         alt="Project gif"
                         className={styles.image}

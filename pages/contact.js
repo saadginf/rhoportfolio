@@ -73,7 +73,7 @@ const failure = () => {
           <div className={styles.contactwrapper}>
           <container className={styles.contactpage}>
             <div align="center" className={styles.header}>
-            <h1>Contact me</h1>
+            <h1>Get In Touch</h1>
           </div>
           <div
             className={styles.formbox}

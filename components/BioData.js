@@ -64,7 +64,7 @@ function BioData() {
               <br></br>
               <b>Auxiliary Technologies</b>
               <br></br>
-              Git, Mocha, Chai, Jest, Vercel
+              Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux, Mac OS
             </p>
           </div>
         </div>

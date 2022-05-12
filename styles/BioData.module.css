@@ -30,6 +30,7 @@ color: black;
 padding: 3rem;
 margin-right: 1rem;
 background-color:rgba(238, 174, 63, 0.75);
+border-radius: 10px;
 }
 
 .blurb p b {
@@ -47,7 +48,8 @@ text-align: center;
 height: 70vh;
 align-items: center;
 padding:2rem;
-background-color: rgba(105, 187, 219, 0.75)
+background-color: rgba(105, 187, 219, 0.75);
+border-radius: 10px;
 }
 
 

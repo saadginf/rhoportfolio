@@ -150,7 +150,7 @@ export default function Home() {
   },
   }}  className={styles.imgshadowteal}></motion.div>
           <img
-          src="/rho.png"
+          src="/rho.webp"
           alt="Rhoda Phillips-Osei"
           className={styles.homeimg}
         ></img>
