@@ -52,7 +52,7 @@ a {
   font-size: 30px;
   display: flex;
   justify-content: space-between;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 #modal-btn {
@@ -182,4 +182,6 @@ form {
 #social-icons {
   width: 8rem;
 }
+
+
 }

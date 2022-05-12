@@ -45,7 +45,8 @@ top: 20%;
   justify-content: center;
 
   font-family: "Quicksand", sans-serif;
-  background-color: rgba(105, 187, 219, 0.65);
+   background-color: rgba(45, 153, 180, 0.5);
+ 
   width: 80vw;
   font-size: 200%;
   z-index: 0;

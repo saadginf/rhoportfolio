@@ -27,8 +27,8 @@
 
 .homeimg {
   position: absolute;
-  right: 8.4%;
-  top: 21.6%;
+  right: 8.2%;
+  top: 21.4%;
   height: 52%;
   width: 22.5%;
   z-index: 4;
@@ -156,6 +156,8 @@
     margin-left: 0.5rem;
     font-size: 200%;
   }
+
+
 }
 
 @media screen and (max-width: 1440px) {
@@ -167,6 +169,7 @@
         width: 105vw;
     top: 23%;
     text-align: center;
+    margin-top: 1rem;
   }
 
   .leftsidehome h1 {
@@ -210,24 +213,24 @@
   }
 
   .imgshadowteal {
-    height: 25.5%;
+    height: 35.5%;
     width: 38.5%;
     left: 29%;
-    top: 40%;
+    top: 31.1%;
   }
 
   .imgshadoworange {
-    height: 25.5%;
+    height: 35.5%;
     width: 38.5%;
     left: 38%;
-    top: 52%;
+    top: 43.1%;
   }
 
   .imgshadowpink {
-    height: 25.5%;
+    height: 35.5%;
     width: 38.5%;
     left: 33.5%;
-    top: 46.8%;
+    top: 36.9%;
   }
 }
 
@@ -256,28 +259,28 @@
 
 
   .homeimg {
-    left: 32.2%;
-    top: 10.6%;
+    left: 32.3%;
+    top: 14.5%;
     height: 57.7%;
     width: 40.1%;
   }
 
   .imgshadowteal {
-    height: 25.5%;
+    height: 29.5%;
     width: 40.5%;
     left: 28%;
     top: 37.5%;
   }
 
   .imgshadoworange {
-    height: 25.5%;
+    height: 29.5%;
     width: 40.5%;
     left: 36%;
     top: 48%;
   }
 
   .imgshadowpink {
-    height: 25.5%;
+    height: 29.5%;
     width: 40.5%;
     left: 32%;
     top: 43%;
@@ -288,7 +291,7 @@
  
   .leftsidehome p {
     width: 105vw;
-    top: 15%;
+    top: 18%;
     left: 1.5%;
   }
 
@@ -318,8 +321,8 @@
 
 
   .homeimg {
-    left: 18.2%;
-    top: 6.6%;
+    left: 18.3%;
+    top: 7.5%;
     height: 57.7%;
     width: 69.5%;
   }
@@ -328,21 +331,21 @@
     height: 33%;
     width: 70.5%;
     left: 9.9%;
-    top: 30.1%;
+    top: 31.1%;
   }
 
   .imgshadoworange {
     height: 30.5%;
     width: 70.5%;
     left: 25.1%;
-    top: 37.8%;
+    top: 38.8%;
   }
 
   .imgshadowpink {
     height: 30.5%;
     width: 70%;
     left: 18%;
-    top: 34%;
+    top: 35%;
   }
 }
 
@@ -362,7 +365,7 @@
   }
 
   .leftsidehome h3 {
-    margin-top: -0.5rem;
+    /* margin-top: -0.5rem; */
     margin-left: 0rem;
     font-size: 100%;
   }
@@ -377,8 +380,8 @@
 
 
   .homeimg {
-    left: 18.5%;
-    top: 13.3%;
+    left: 18.8%;
+    top: 13.17%;
     height: 46%;
     width: 68.6%;
   }

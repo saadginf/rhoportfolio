@@ -71,6 +71,7 @@ const ImageSlider = ({ slides }) => {
                         className={styles.image}
                         width={slide.width}
                         height={slide.height}
+                        id={slide.id}
                       />
                     </motion.div>
                     <div className={styles.projectdesc}>
