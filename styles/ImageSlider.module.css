@@ -182,22 +182,23 @@
   }
 
   .projectdesc {
-    width: 84vw;
+    width: 160vw;
     height: auto;
     font-size: 12px;
   }
 
   .projecttitle {
-    width: 84vw;
+    width: 160vw;
     margin-top: -4rem;
   }
 
   .projectcontainer {
-    width: 170%;
+    width: 320%;
+
   }
 
   .header h1 {
-    width: 84vw;
+    width: 160vw;
     margin-top: -7rem;
   }
 
