@@ -8,7 +8,7 @@ export const SliderData = [
     github: "https://github.com/rphillipsosei/tweeter",
     height: "400px",
     width: "750px",
-    id: "tweeter"
+    id: "tweeter",
   },
   {
     image: "/moonbeamdemo.gif",
@@ -18,17 +18,18 @@ export const SliderData = [
     github: "https://github.com/rphillipsosei/moonbeam-tc/",
     height: "400px",
     width: "220px",
-    id: "moonbeam"
+    id: "moonbeam",
   },
   {
     image: "/tinyappdemo.gif",
     title: "TinyApp",
-    description: "An app where users can create, edit, and store shortened links for everyday websites.",
+    description:
+      "An app where users can create, edit, and store shortened links for everyday websites.",
     technologies: "Express, Node.js, bCrypt, EJS, Bootstrap",
     github: "https://github.com/rphillipsosei/tinyapp",
     height: "400px",
     width: "750px",
-    id: "tinyapp"
+    id: "tinyapp",
   },
   {
     image: "/portfolio.webp",
@@ -38,6 +39,6 @@ export const SliderData = [
     github: "https://github.com/rphillipsosei/new-portfolio-app",
     height: "400px",
     width: "750px",
-    id: "portfolio"
-  }
+    id: "portfolio",
+  },
 ];

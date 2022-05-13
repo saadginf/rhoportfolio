@@ -25,7 +25,6 @@ a:hover {
 
 .navbar {
   height: 3%;
-
 }
 
 #navbarNav {
@@ -36,7 +35,6 @@ a:hover {
   position: fixed;
   top: 0;
 }
-
 
 #homelink {
   color: #000000;
@@ -64,8 +62,7 @@ a:hover {
   width: 3%;
   display: flex;
   justify-content: space-between;
-  text-align: center
-
+  text-align: center;
 }
 
 #modal-btn {
@@ -129,7 +126,6 @@ button:hover {
   margin-top: 3px;
 }
 
-
 #icon-container {
   display: flex !important;
   justify-content: center;
@@ -140,7 +136,7 @@ button:hover {
   #social-icons {
     margin-left: 3rem;
   }
-  }
+}
 @media screen and (max-width: 480px) {
   form {
     width: 120%;
@@ -152,21 +148,17 @@ button:hover {
 
   #homelink {
     left: 4%;
-    font-size:3rem;
+    font-size: 3rem;
   }
 
-
-#nav-link {
-  font-size: 3rem;
-}
+  #nav-link {
+    font-size: 3rem;
+  }
   body {
     width: 210vw;
   }
 
   input {
-
     width: 60%;
- ;
   }
 }
-
