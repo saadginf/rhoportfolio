@@ -22,7 +22,7 @@ export const SliderData = [
   },
   {
     image: "/tinyappdemo.gif",
-    title: "Tinyapp",
+    title: "TinyApp",
     description: "An app where users can create, edit, and store shortened links for everyday websites.",
     technologies: "Express, Node.js, bCrypt, EJS, Bootstrap",
     github: "https://github.com/rphillipsosei/tinyapp",
