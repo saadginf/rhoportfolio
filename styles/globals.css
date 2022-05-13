@@ -24,7 +24,7 @@ a:hover {
 }
 
 .navbar {
-  height: 5%;
+  height: 3%;
 
 }
 
@@ -61,7 +61,9 @@ a:hover {
 }
 
 #social-icons {
-  width: 100%;
+  width: 3%;
+  display: flex;
+  justify-content: space-between;
   text-align: center
 
 }
@@ -132,9 +134,10 @@ button:hover {
   margin-left: 1rem;
   display: flex !important;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1440px) {
   #social-icons {
     margin-left: 3rem;
   }

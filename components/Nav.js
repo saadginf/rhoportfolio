@@ -9,8 +9,8 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid py-3" id="icon-container">
          
-          <div id="social-icons"> 
           <div className={styles.getintouch}>GET IN TOUCH</div>
+          <div id="social-icons"> 
             <Link href="https://linkedin.com/in/rphillipsosei">
               <a id="nav-link">
                 <AiFillLinkedin />
