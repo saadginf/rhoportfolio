@@ -125,6 +125,7 @@ export default function Home() {
       }
   },
   }} className={styles.imgshadowpink}></motion.div>
+
         <motion.div 
     initial="hidden" animate="visible" variants={{ 
       hidden: {
@@ -149,13 +150,33 @@ export default function Home() {
       }
   },
   }}  className={styles.imgshadowteal}></motion.div>
-  <div className={styles.homeimgcontainer}>
+  <motion.div 
+  
+
+   initial="hidden" animate="visible" variants={{ 
+      hidden: {
+          opacity: 0,
+          scale: .8
+          
+      },
+  visible: {
+      opacity: 1,
+      scale:1,
+      transition: {
+          delay: 1.5,
+          duration: 1
+      }
+  },}}
+
+
+  className={styles.homeimgcontainer}>
           <Image
           src="/rho.webp"
           alt="Rhoda Phillips-Osei"
           className={styles.homeimg}
           layout="fill"
-        ></Image></div>
+        ></Image>
+        </motion.div>
       </div>
     </motion.div>
     </motion.div>
