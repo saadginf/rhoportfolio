@@ -57,16 +57,17 @@
 @media screen and (max-width: 480px) {
   .header h1 {
     width: 170vw;
-   position: fixed;
+   /* position: fixed;
    top: 20%;
-   left: 10%
+   left: 10% */
   }
 
   .formbox {
     width: 170vw;
-    height:60vh;
-    position: fixed;
+    height:55vh;
+
+    /* position: fixed;
     top: 23%;
-    left: 10%
+    left: 10% */
   }
 }
