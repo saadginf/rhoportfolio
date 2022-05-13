@@ -4,10 +4,8 @@ import styles from "../styles/Contact.module.css";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
-import { useForm } from "react-hook-form";
 
 export default function Contact() {
-  // const { handleSubmit, register, formState: { errors } } = useForm();
 
   const [val, setVal] = useState();
   const form = useRef();
@@ -31,7 +29,7 @@ export default function Contact() {
         style: {
           border: "2px solid #2093A5",
           marginTop: "7rem",
-          borderRadius: 0,
+          borderRadius: 10,
           backgroundColor: "rgba(242, 242, 242, 0.65)",
         },
       }

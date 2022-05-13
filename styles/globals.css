@@ -2,7 +2,7 @@
 
 html,
 body {
-  width: 100%;
+  width: 110vw;
   padding: 0;
   margin: 0;
   font-family: "Quicksand", sans-serif;
@@ -132,6 +132,12 @@ button:hover {
 }
 
 @media screen and (max-width: 480px) {
+
+  body {
+    width: 100vw;
+  
+  }
+
   form {
     width: 120%;
   }

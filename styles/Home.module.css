@@ -56,8 +56,8 @@
 }
 .container {
   display: flex;
-  width: 100vw;
-  height: auto;
+  /* width: 100vw; */
+  /* height: auto; */
 }
 
 .rightsidehome {
@@ -181,8 +181,8 @@
 
 @media screen and (max-width: 1440px) {
   .homewrapper {
-    width: 0%;
-    height: 200%;
+    /* width: 0%; */
+    /* height: 200%; */
   }
   .leftsidehome .hometext {
     width: 105vw;
