@@ -57,11 +57,11 @@
 @media screen and (max-width: 480px) {
   .header h1 {
     width: 170vw;
-    margin-top: 12rem;
+    margin-top: 15rem;
   }
 
   .formbox {
     width: 170vw;
-  
+  margin-top: 0
   }
 }
