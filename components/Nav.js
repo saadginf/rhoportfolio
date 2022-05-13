@@ -1,38 +1,26 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillHome } from "react-icons/ai";
-import { MdEmail } from "react-icons/md";
+import styles from "../styles/Home.module.css"
 import Link from "next/link";
-
 
 export default function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid py-3" id="icon-container">
-          <div>
-            <Link href="/">
-              <a id="homelink">
-                <AiFillHome />
+         
+          <div id="social-icons"> 
+          <div className={styles.getintouch}>GET IN TOUCH</div>
+            <Link href="https://linkedin.com/in/rphillipsosei">
+              <a id="nav-link">
+                <AiFillLinkedin />
               </a>
             </Link>
-
-            <div id="social-icons">
-              <Link href="https://linkedin.com/in/rphillipsosei">
-                <a id="nav-link">
-                  <AiFillLinkedin />
-                </a>
-              </Link>
-              <Link href="https://github.com/rphillipsosei">
-                <a id="nav-link">
-                  <AiFillGithub />
-                </a>
-              </Link>
-              <Link href="/contact">
-                <a id="nav-link">
-                  <MdEmail />
-                </a>
-              </Link>
-            </div>
+            <Link href="https://github.com/rphillipsosei">
+              <a id="nav-link">
+                <AiFillGithub />
+              </a>
+            </Link>
           </div>
         </div>
       </nav>

@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 
+
 export default function Contact() {
 
   const [val, setVal] = useState();
@@ -61,135 +62,100 @@ export default function Contact() {
   };
 
   return (
-    <form class="form-horizontal">
-<fieldset>
+    <div>
+      <div>
+        <Toaster />
+      </div>
+      <Head>
+        <title>Rhoda Phillips-Osei | Contact Me </title>
+      </Head>
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={{
+          hidden: {
+            opacity: 0,
+          },
+          visible: {
+            opacity: 1,
+            transition: {
+              delay: 0.7,
+            },
+          },
+        }}
+        className="wrapper"
+      >
+        <container className="backgroundstyling" id="contactform">
+          <div className={styles.contactwrapper}>
+            <container className={styles.contactpage}>
+              <div align="center" className={styles.header}>
+                <h1>Get In Touch</h1>
+              </div>
+              <div
+                className={styles.formbox}
+                initial={{ translateX: -100 }}
+                animate={{ translateX: 0 }}
+                transition={{ duration: 1 }}
+              >
+                <form
+                  ref={form}
+                  onSubmit={sendEmail}
+                  method="POST"
+                  className={styles.form}
+                >
+                  <div className="form-group" id="form-control">
+                    <label htmlFor="exampleFormControlInput1">Name</label>
+                    <br></br>
+                    <input
+                      required
+                      name="name"
+                      value={val}
+                      className="form-control"
+                      id="exampleFormControlInput1"
+                    ></input>
+                  </div>
+                  <div className="form-group" id="form-control">
+                    <label htmlFor="exampleFormControlInput1">
+                      Email address
+                    </label>
+                    <br></br>
+                    <input
+                      required
+                      name="email"
+                      value={val}
+                      type="email"
+                      className="form-control"
+                      id="exampleFormControlInput1"
+                    ></input>
+                  </div>
+                  <div className="form-group" id="form-control">
+                    <label htmlFor="exampleFormControlTextarea1">Message</label>
+                    <br></br>
+                    <textarea
+                      required
+                      name="message"
+                      value={val}
+                      className="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="New message from rhoda.tech"
+                  ></input>
+                  <br></br>
 
-
-<legend>Get In Touch</legend>
-
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">Text Input</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md"></input>
-  <span class="help-block">help</span>  
-  </div>
-</div>
-
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">Text Input</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md"></input>
-  <span class="help-block">help</span>  
-  </div>
-</div>
-
-
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textarea">Text Area</label>
-  <div class="col-md-4">                     
-    <textarea class="form-control" id="textarea" name="textarea">default text</textarea>
-  </div>
-</div>
-
-</fieldset>
-</form>
-
-  //   <div>
-  //     <div>
-  //       <Toaster />
-  //     </div>
-  //     <Head>
-  //       <title>Rhoda Phillips-Osei | Contact Me </title>
-  //     </Head>
-  //     <motion.div
-  //       initial="hidden"
-  //       animate="visible"
-  //       variants={{
-  //         hidden: {
-  //           opacity: 0,
-  //         },
-  //         visible: {
-  //           opacity: 1,
-  //           transition: {
-  //             delay: 0.7,
-  //           },
-  //         },
-  //       }}
-  //       className="wrapper"
-  //     >
-  //       <container className="backgroundstyling" id="contactform">
-  //         <div className={styles.contactwrapper}>
-  //           <container className={styles.contactpage}>
-  //             <div align="center" className={styles.header}>
-  //               <h1>Get In Touch</h1>
-  //             </div>
-  //             <div
-  //               className={styles.formbox}
-  //               initial={{ translateX: -100 }}
-  //               animate={{ translateX: 0 }}
-  //               transition={{ duration: 1 }}
-  //             >
-  //               <form
-  //                 ref={form}
-  //                 onSubmit={sendEmail}
-  //                 method="POST"
-  //                 className={styles.form}
-  //               >
-  //                 <div className="form-group" id="form-control">
-  //                   <label htmlFor="exampleFormControlInput1">Name</label>
-  //                   <br></br>
-  //                   <input
-  //                     required
-  //                     name="name"
-  //                     value={val}
-  //                     className="form-control"
-  //                     id="exampleFormControlInput1"
-  //                   ></input>
-  //                 </div>
-  //                 <div className="form-group" id="form-control">
-  //                   <label htmlFor="exampleFormControlInput1">
-  //                     Email address
-  //                   </label>
-  //                   <br></br>
-  //                   <input
-  //                     required
-  //                     name="email"
-  //                     value={val}
-  //                     type="email"
-  //                     className="form-control"
-  //                     id="exampleFormControlInput1"
-  //                   ></input>
-  //                 </div>
-  //                 <div className="form-group" id="form-control">
-  //                   <label htmlFor="exampleFormControlTextarea1">Message</label>
-  //                   <br></br>
-  //                   <textarea
-  //                     required
-  //                     name="message"
-  //                     value={val}
-  //                     className="form-control"
-  //                     id="exampleFormControlTextarea1"
-  //                     rows="3"
-  //                   ></textarea>
-  //                 </div>
-  //                 <input
-  //                   type="hidden"
-  //                   name="_subject"
-  //                   value="New message from rhoda.tech"
-  //                 ></input>
-  //                 <br></br>
-
-  //                 <button className={styles.contactbtn} value="Send">
-  //                   SEND
-  //                 </button>
-  //               </form>
-  //             </div>
-  //           </container>
-  //         </div>
-  //       </container>
-  //     </motion.div>
-  //   </div>
-  // );
+                  <button className={styles.contactbtn} value="Send">
+                    SEND
+                  </button>
+                </form>
+              </div>
+            </container>
+          </div>
+        </container>
+      </motion.div>
+    </div>
+  );
 }
