@@ -53,15 +53,7 @@ border-radius: 10px;
 }
 
 
-/* @media screen and (max-width: 1920px) {}
-@media screen and (max-width: 1700px) {
-    .aboutmodule {
-        width: 160%;
-        position: absolute;
-        right: -34%;
-        top: 10%;
-    }
-} */
+
 @media screen and (max-width: 1440px) {
     .aboutmodule {
         width: 160%;
