@@ -22,18 +22,14 @@ a:hover {
 * {
   box-sizing: border-box;
 }
-.navbar {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #ffff;
-  border-bottom: 1px solid black;
-}
 
 #navbarNav {
   justify-content: center;
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
   align-items: center;
+  position: fixed;
+  top: 0;
 }
 
 #homelink {
@@ -143,6 +139,6 @@ button:hover {
 
   #social-icons {
     width: 8rem;
-    margin-left:
+
   }
 }
