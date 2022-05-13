@@ -97,7 +97,7 @@ export default function Home() {
 
                      <div className="wrapper">
         <container >
-        <container className="">
+        <container className={styles.slidercontainer}>
           <ImageSlider slides={SliderData}/>
          
        </container>
