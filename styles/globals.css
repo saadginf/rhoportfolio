@@ -144,6 +144,10 @@ button:hover {
     width: 120%;
   }
 
+  #social-icons {
+    margin-left: 0rem;
+  }
+
   #homelink {
     left: 4%;
     font-size:3rem;
