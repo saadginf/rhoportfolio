@@ -107,11 +107,6 @@
   align-items: center;
 }
 
-.dynamicdata {
-  flex-direction: column;
-  display: flex;
-}
-
 .viewapp a {
   margin-top: 1rem;
   font-size: 16px;
