@@ -33,8 +33,8 @@ export const SliderData = [
   {
     image: "/portfolio.webp",
     title: "Profile App",
-    description: "This very app! For you to get to know more about me.",
-    technologies: "React, NextJS, Framer Motion",
+    description: "This very app. For you to get to know more about me!",
+    technologies: "React, NextJS, Bootstrap, Framer Motion",
     github: "https://github.com/rphillipsosei/new-portfolio-app",
     height: "400px",
     width: "750px",
