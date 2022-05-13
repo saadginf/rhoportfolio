@@ -70,15 +70,17 @@
   .aboutwrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
   }
 
   .blurb {
     width: 168%;
-    height: 53vh;
+    height: 65vh;
     position: absolute;
     left: -32.9%;
-    top: -10%;
-    font-size: 10px;
+    top: 10%;
+    font-size: 16px;
     padding: 1rem;
   }
 
@@ -89,12 +91,11 @@
   .skills {
     width: 168%;
     position: absolute;
-    font-size: 10px;
-    height: 30vh;
+    font-size: 16px;
+    height: 45vh;
     padding: 1rem;
     left: -32.9%;
-    bottom: 8%;
-    top: 65%;
+    top: 50%;
   }
 
   .skills h2 {

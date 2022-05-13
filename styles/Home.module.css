@@ -378,44 +378,44 @@
     width: 100vw
   }
   .leftsidehome h1 {
-    font-size: 370%;
+    font-size: 300%;
     text-align: center;
   }
 
   .leftsidehome .hometext {
     position: relative;
    width: 100%;
-    top: 42%;
+    top: 47%;
     left: 68%;
 margin-left: 0
   }
 
   .homeimgcontainer {
    width: 130%;
-   height: 75%;
+   height: 77%;
    left: 41.5%;
-   top: 51%;
+   top: 54%;
   }
 
   .imgshadowpink {
     height: 46.5%;
     width: 130%;
     left: 40.5%;
-    top: 79.8%;
+    top: 84.8%;
   }
 
   .imgshadoworange {
     height: 46.5%;
     width: 130.5%;
     left: 57%;
-    top: 86%;
+    top: 90%;
   }
 
   .imgshadowteal {
     height: 46.5%;
     width: 130.5%;
     left: 24%;
-    top: 73%;
+    top: 78%;
   }
 
   .leftsidehome h3 {
@@ -434,8 +434,9 @@ margin-left: 0
 
   .homebtn {
     margin-right: 0rem;
-    margin-bottom: 0.5rem;
-    font-size:25px
+    margin-bottom: 0.7rem;
+    font-size:25px;
+    width: 100%;
   }
 
 /* .container {
