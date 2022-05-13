@@ -19,7 +19,10 @@ a {
 * {
   box-sizing: border-box;
 }
-
+.navbar {
+    border-bottom: 1px solid black;
+    min-height: 3.8rem;
+}
 #navbarNav {
   justify-content: center;
   font-family: "Quicksand", sans-serif;
@@ -28,6 +31,7 @@ a {
   align-items: center;
   position: fixed;
   top: 0;
+
 }
 
 #homelink {
