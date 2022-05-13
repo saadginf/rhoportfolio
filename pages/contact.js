@@ -35,6 +35,8 @@ export default function Contact() {
     );
   };
 
+
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -58,6 +60,11 @@ export default function Contact() {
         }
       );
   };
+
+
+  
+
+
 
   return (
     <div>

@@ -6,24 +6,6 @@
   justify-content: center;
   width: 100%
 }
-
-.container {
-  display: flex;
-  width: 100vw;
-  height: auto;
-}
-
-
-.rightsidehome {
-  height: 100vh;
-  width: 45vw;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  z-index: 0;
-  margin-left: 2rem;
-}
-
 .homebtn {
   background-color: transparent;
   font-size: 20px;
@@ -35,6 +17,57 @@
   background-color: #2093A5;
   color: #ffff;
     font-style: italic;
+}
+
+.leftsidehome .hometext {
+  flex-direction: row;
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  margin-left: 13%;
+}
+.leftsidehome h1 {
+  font-size: 600%;
+  font-family: "Quicksand";
+  width: 130%;
+  text-align: left;
+}
+
+.leftsidehome h1:hover {
+  font-style: italic;
+}
+
+.leftsidehome h3 {
+  margin-top: -1.5rem;
+  margin-left: 0.3rem;
+  font-size: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  width: 80%;
+  text-align: left;
+}
+
+.homebtns {
+  margin-left: 0.5rem;
+  width: 100%;
+  text-align: left;
+  margin-top: 1rem;
+  display: flex;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+.rightsidehome {
+  height: 100vh;
+  width: 45vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 0;
+  margin-left: 2rem;
 }
 
 .leftsidehome {
@@ -99,41 +132,6 @@
   border-left: 3px solid black;
 }
 
-.leftsidehome .hometext {
-  flex-direction: row;
-  position: absolute;
-  text-align: center;
-  top: 35%;
-  margin-left: 13%;
-}
-.leftsidehome h1 {
-  font-size: 600%;
-  font-family: "Quicksand";
-  width: 130%;
-  text-align: left;
-}
-
-.leftsidehome h1:hover {
-  font-style: italic;
-}
-
-.leftsidehome h3 {
-  margin-top: -1.5rem;
-  margin-left: 0.3rem;
-  font-size: 40px;
-  font-family: "Quicksand", sans-serif;
-  font-style: italic;
-  width: 80%;
-  text-align: left;
-}
-
-.homebtns {
-  margin-left: 0.5rem;
-  width: 100%;
-  text-align: left;
-  margin-top: 1rem;
-  display: flex;
-}
 
 .modal {
   background-color: transparent;
@@ -186,7 +184,7 @@
     width: 0%;
     height: 200%;
   }
-  .leftsidehome #hometext {
+  .leftsidehome .hometext {
     width: 105vw;
     top: 23%;
     text-align: center;
@@ -256,7 +254,7 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .leftsidehome #hometext {
+  .leftsidehome .hometext {
     width: 105vw;
     top: 23%;
     left: 1.5%;
@@ -307,7 +305,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .leftsidehome #hometext {
+  .leftsidehome .hometext {
     width: 105vw;
     top: 18%;
     left: 1.5%;
@@ -379,7 +377,7 @@
     flex-direction: column;
   }
 
-  .leftsidehome #hometext {
+  .leftsidehome .hometext {
     top: 10%;
   }
 
