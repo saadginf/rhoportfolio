@@ -32,7 +32,6 @@ a:hover {
   justify-content: center;
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
-  padding-left: 0.7rem;
   align-items: center;
 }
 
@@ -48,12 +47,12 @@ a:hover {
   color: #2093a5;
 }
 
-.navlink {
+#navlink {
   color: #000000;
   cursor: pointer;
 }
 
-.navlink:hover {
+#navlink:hover {
   color: #2093a5;
 }
 
@@ -143,5 +142,6 @@ button:hover {
 
   #social-icons {
     width: 8rem;
+    margin-left: 1.3rem;
   }
 }

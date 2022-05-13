@@ -23,7 +23,7 @@ export default function Navbar() {
                 </a>
               </Link>
               <Link href="https://github.com/rphillipsosei">
-                <a className="navlink">
+                <a id="navlink">
                   <AiFillGithub />
                 </a>
               </Link>
