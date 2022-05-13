@@ -32,6 +32,7 @@ a:hover {
   top: 0;
 }
 
+
 #homelink {
   color: #000000;
   position: absolute;
@@ -104,7 +105,7 @@ textarea {
 }
 
 #form-control {
-  width: 90%;
+  width: 80%;
   margin-bottom: 1rem;
 }
 
@@ -147,5 +148,11 @@ button:hover {
 }
   body {
     width: 210vw;
+  }
+
+  input {
+
+    width: 60%;
+ ;
   }
 }

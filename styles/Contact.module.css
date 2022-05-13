@@ -53,3 +53,15 @@
 #input {
   width: 10rem;
 }
+
+@media screen and (max-width: 480px) {
+  .header h1 {
+    width: 170vw;
+    margin-top: 12rem;
+  }
+
+  .formbox {
+    width: 170vw;
+  
+  }
+}
