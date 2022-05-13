@@ -3,7 +3,7 @@ export const SliderData = [
     image: "/tweeterdemo.gif",
     title: "Tweeter",
     description:
-      "A single-paged clone of a certain popular social media app ;-)",
+      "A single-paged clone of a certain popular social media site ;-)",
     technologies: "Javascript, jQuery, AJAX, HTML, CSS",
     github: "https://github.com/rphillipsosei/tweeter",
     height: "400px",
