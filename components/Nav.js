@@ -1,6 +1,6 @@
 import React from "react";
-import { AiFillGithub, AiFillLinkedin, AiFillHome, AiTwotoneMail } from "react-icons/ai";
-import { MdEmail } from "react-icons/Md";
+import { AiFillGithub, AiFillLinkedin, AiFillHome} from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 import Link from "next/link";
 
 
