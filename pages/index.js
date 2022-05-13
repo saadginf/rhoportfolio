@@ -156,7 +156,7 @@ export default function Home() {
    initial="hidden" animate="visible" variants={{ 
       hidden: {
           opacity: 0,
-          scale: .8
+          scale: .97
           
       },
   visible: {
@@ -164,7 +164,7 @@ export default function Home() {
       scale:1,
       transition: {
           delay: 1.5,
-          duration: 1
+          duration: .3
       }
   },}}
 
