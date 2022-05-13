@@ -25,7 +25,7 @@
   position: relative;
 }
 
-.homeimg {
+.homeimgcontainer {
   position: absolute;
   right: 8.2%;
   top: 21.4%;
@@ -206,7 +206,7 @@
     top: 55%;
   }
 
-  .homeimg {
+  .homeimgcontainer {
     left: 33.7%;
     top: 9.4%;
     height: 62.7%;
@@ -257,7 +257,7 @@
     margin-top: 1.2rem;
   }
 
-  .homeimg {
+  .homeimgcontainer {
     left: 32.3%;
     top: 14.5%;
     height: 57.7%;
@@ -317,7 +317,7 @@
     padding: 1rem;
   }
 
-  .homeimg {
+  .homeimgcontainer {
     left: 18.3%;
     top: 7.5%;
     height: 57.7%;
@@ -376,7 +376,7 @@
     flex-direction: column;
   }
 
-  .homeimg {
+  .homeimgcontainer {
     left: 18.8%;
     top: 13.17%;
     height: 46%;

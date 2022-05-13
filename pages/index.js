@@ -149,20 +149,16 @@ export default function Home() {
       }
   },
   }}  className={styles.imgshadowteal}></motion.div>
-          <img
+  <div className={styles.homeimgcontainer}>
+          <Image
           src="/rho.webp"
           alt="Rhoda Phillips-Osei"
           className={styles.homeimg}
-        ></img>
+          layout="fill"
+        ></Image></div>
       </div>
     </motion.div>
     </motion.div>
   );
 }
 
-const homeImg = {
-  position: "relative",
-  top: "20%",
-  zIndex: "4",
-  right: "5%",
-}
