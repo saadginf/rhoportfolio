@@ -76,11 +76,11 @@
 
   .blurb {
     width: 168%;
-    height: 65vh;
+    height: 68vh;
     position: absolute;
     left: -32.9%;
     top: 10%;
-    font-size: 16px;
+    font-size: 18px;
     padding: 1rem;
   }
 
@@ -91,8 +91,8 @@
   .skills {
     width: 168%;
     position: absolute;
-    font-size: 16px;
-    height: 45vh;
+    font-size: 18px;
+    height: 50vh;
     padding: 1rem;
     left: -32.9%;
     top: 56%;
