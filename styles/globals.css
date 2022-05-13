@@ -7,8 +7,8 @@ body {
   margin: 0;
   font-family: "Quicksand", sans-serif;
   background-color: #ffff;
-background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
-min-width: 110vw;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
+  min-width: 102vw;
 }
 
 a {
@@ -26,9 +26,8 @@ a {
   font-size: 18px;
   padding-left: 0.7rem;
   align-items: center;
-  position: fixed; 
-  top: 0; 
-  
+  position: fixed;
+  top: 0;
 }
 
 #homelink {
@@ -36,20 +35,20 @@ a {
   position: absolute;
   left: 2%;
   font-size: 30px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 #homelink:hover {
-  color: #2093A5;
+  color: #2093a5;
 }
 
 #navlink {
   color: #000000;
-  cursor: pointer
+  cursor: pointer;
 }
 
 #navlink:hover {
-  color: #2093A5;
+  color: #2093a5;
 }
 
 #social-icons {
@@ -73,12 +72,10 @@ a {
 }
 
 #home-btn:hover {
-  background-color: #2093A5;
+  background-color: #2093a5;
   color: #ffff;
-    font-style: italic;
+  font-style: italic;
 }
-
-
 
 a span {
   color: black;
@@ -87,12 +84,11 @@ a span {
 }
 
 span .carousel-control-next-icon {
-display: none;
+  display: none;
 }
 
-
 form {
-text-align: center;
+  text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -107,18 +103,18 @@ input {
   width: 100%;
   height: 30px;
   margin-bottom: 1rem;
-  font-family: "Quicksand"
+  font-family: "Quicksand";
 }
 
 textarea {
   border-radius: 5px;
   border: 2px solid black;
-width: 100%;
-font-family: "Quicksand"
+  width: 100%;
+  font-family: "Quicksand";
 }
 
 #form-control {
-  width:90%;
+  width: 90%;
   margin-bottom: 1rem;
 }
 
@@ -128,39 +124,34 @@ font-family: "Quicksand"
   width: 10rem;
 }
 
-
 #contact-btn:hover {
-  background-color: #2093A5;
+  background-color: #2093a5;
   color: #ffff;
   border: none;
   margin-top: 3px;
 }
 
-
 #icon-container {
   display: flex !important;
   justify-content: center;
-  width: 100%
+  width: 100%;
 }
 
-@media screen and (max-width: 480px){
-
+@media screen and (max-width: 480px) {
   #home-btn {
     margin-right: 0rem;
     margin-bottom: 0.5rem;
   }
 
-form {
-  width: 120%
-}
+  form {
+    width: 120%;
+  }
 
-#homelink {
-  left: 4%
-}
+  #homelink {
+    left: 4%;
+  }
 
-#social-icons {
-  width: 8rem;
-}
-
-
+  #social-icons {
+    width: 8rem;
+  }
 }

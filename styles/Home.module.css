@@ -53,7 +53,7 @@
 .imgshadoworange {
   z-index: 100;
   background-color: orange;
-    border-radius: 20px;
+  border-radius: 20px;
   position: absolute;
   height: 37.4%;
   width: 22.5%;
@@ -351,9 +351,9 @@
     align-items: center;
     flex-direction: column;
   }
-  
+
   .leftsidehome #hometext {
-    top: 10%
+    top: 10%;
   }
 
   .leftsidehome h1 {
@@ -404,7 +404,7 @@
   }
 
   .slidercontainer {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 77vh;

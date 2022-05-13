@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/BioData.module.css";
 import { motion } from "framer-motion"
+
 function BioData() {
   return (
     <motion.div 
@@ -64,7 +65,7 @@ function BioData() {
               <br></br>
               <b>Auxiliary Technologies</b>
               <br></br>
-              Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux, Mac OS
+              Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux
             </p>
           </div>
         </div>

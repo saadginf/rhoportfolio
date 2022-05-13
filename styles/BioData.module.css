@@ -1,109 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Satisfy&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Satisfy&display=swap");
 
 .aboutmodule {
-    width: 100%;
-    background-color: transparent;
-    flex-direction: column;
-display: flex;
+  width: 100%;
+  background-color: transparent;
+  flex-direction: column;
+  display: flex;
 }
 
 .aboutwrapper {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-height: auto;
+  height: auto;
 }
 
-
-
 .blurb {
-width: 65%;
-display: flex;
-justify-content: center;
-flex-direction: column;
-text-align: center;
-height: 70vh;
-align-items: center;
-font-family: "Quicksand", sans-serif;
-color: black;
-padding: 3rem;
-margin-right: 1rem;
-background-color:rgba(238, 174, 63, 0.75);
-border-radius: 10px;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 70vh;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  padding: 3rem;
+  margin-right: 1rem;
+  background-color: rgba(238, 174, 63, 0.75);
+  border-radius: 10px;
 }
 
 .blurb p b {
-    font-size: 18px;
+  font-size: 18px;
 }
-
 
 .skills {
-width: 45%;
-display: flex;
-justify-content: center;
-font-family: "Quicksand", sans-serif;
-color: black;
-text-align: center;
-height: 70vh;
-align-items: center;
-padding:2rem;
-background-color: rgba(105, 187, 219, 0.75);
-border-radius: 10px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  text-align: center;
+  height: 70vh;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgba(105, 187, 219, 0.75);
+  border-radius: 10px;
 }
 
-
-
 @media screen and (max-width: 1440px) {
-    .aboutmodule {
-        width: 160%;
-        position: absolute;
-        right: -34%;
-        top: 10%;
-    }
+  .aboutmodule {
+    width: 160%;
+    position: absolute;
+    right: -34%;
+    top: 10%;
+  }
 
-    .skills {
-        width:30%;
-    }}
-    
-     @media screen and (max-width: 480px) {
-       .aboutmodule {
-          width: 100%;
-          position: unset;
-       }
-       
-        .aboutwrapper {
-            display: flex;
-            flex-direction: column;
-    
-            }
-    
-            .blurb {
-                width: 168%; 
-                height: 53vh;
-                position: absolute;
-                left: -32.9%;
-                top: -10%;
-                font-size: 10px;
-                padding: 1rem;
-            }
-    
-            .blurb p b {
-                font-size: 14px;
-            }
-    
-            .skills {
-                width: 168%; 
-                position: absolute;
-                font-size: 10px;
-                height: 30vh;
-                padding: 1rem;
-                left: -32.9%;
-                bottom:8%;
-                top: 65%;
-            }
+  .skills {
+    width: 30%;
+  }
+}
 
-            .skills h2 {
-                font-size: 16px;
-            }
-    }
+@media screen and (max-width: 480px) {
+  .aboutmodule {
+    width: 100%;
+    position: unset;
+  }
+
+  .aboutwrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blurb {
+    width: 168%;
+    height: 53vh;
+    position: absolute;
+    left: -32.9%;
+    top: -10%;
+    font-size: 10px;
+    padding: 1rem;
+  }
+
+  .blurb p b {
+    font-size: 14px;
+  }
+
+  .skills {
+    width: 168%;
+    position: absolute;
+    font-size: 10px;
+    height: 30vh;
+    padding: 1rem;
+    left: -32.9%;
+    bottom: 8%;
+    top: 65%;
+  }
+
+  .skills h2 {
+    font-size: 16px;
+  }
+}

@@ -143,23 +143,21 @@
   }
 }
 
-
 @media screen and (max-width: 900px) {
   .rightarrow {
     right: -35%;
     font-size: 300%;
-    top: 40%
+    top: 40%;
   }
 
   .leftarrow {
     left: -35%;
     font-size: 300%;
-    top: 40%
+    top: 40%;
   }
 
   .projectdesc {
     width: 85vw;
-
   }
 
   .projecttitle {
@@ -208,8 +206,7 @@
   }
 
   .viewapp {
-    margin-top: .4rem;
+    margin-top: 0.4rem;
     font-size: 12px;
   }
-
 }
