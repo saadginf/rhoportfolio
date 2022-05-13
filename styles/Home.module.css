@@ -2,6 +2,7 @@
 .getintouch {
  margin-bottom: -0.5rem;
  font-size: 14px;
+
 }
 
 .iconcontainer {
@@ -183,7 +184,10 @@
 }
 
 @media screen and (max-width: 1440px) {
-
+  .getintouch {
+   margin-left: 3.3rem;
+   
+   }
   .leftsidehome .hometext {
     width: 105vw;
     top: 23%;
@@ -254,6 +258,11 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .getintouch {
+    margin-left: 3.3rem;
+    
+    }
+  
   .leftsidehome .hometext {
     width: 105vw;
     top: 23%;
@@ -305,6 +314,10 @@
 }
 
 @media screen and (max-width: 900px) {
+  .getintouch {
+    margin-left: 4rem;
+    
+    }
   .leftsidehome .hometext {
     width: 105vw;
     top: 18%;

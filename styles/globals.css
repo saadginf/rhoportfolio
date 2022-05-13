@@ -131,7 +131,6 @@ button:hover {
 
 
 #icon-container {
-  margin-left: 1rem;
   display: flex !important;
   justify-content: center;
   flex-direction: column;
