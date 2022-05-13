@@ -1,10 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500&family=Rock+Salt&family=Satisfy&family=Yellowtail&display=swap");
 
+
+.iconcontainer {
+  display: flex !important;
+  justify-content: center;
+  width: 100%
+}
+
 .container {
   display: flex;
   width: 100vw;
   height: auto;
 }
+
 
 .rightsidehome {
   height: 100vh;
@@ -14,6 +22,19 @@
   justify-content: flex-end;
   z-index: 0;
   margin-left: 2rem;
+}
+
+.homebtn {
+  background-color: transparent;
+  font-size: 20px;
+  width: 10rem;
+  margin-right: 1rem;
+}
+
+.homebtn:hover {
+  background-color: #2093A5;
+  color: #ffff;
+    font-style: italic;
 }
 
 .leftsidehome {
@@ -78,7 +99,7 @@
   border-left: 3px solid black;
 }
 
-.leftsidehome #hometext {
+.leftsidehome .hometext {
   flex-direction: row;
   position: absolute;
   text-align: center;
@@ -346,6 +367,12 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .homebtn {
+    margin-right: 0rem;
+    margin-bottom: 0.5rem;
+  }
+
   .homewrapper {
     display: flex;
     align-items: center;

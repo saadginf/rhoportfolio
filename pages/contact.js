@@ -142,7 +142,7 @@ export default function Contact() {
                   ></input>
                   <br></br>
 
-                  <button id="contact-btn" value="Send">
+                  <button className={styles.contactbtn} value="Send">
                     SEND
                   </button>
                 </form>
