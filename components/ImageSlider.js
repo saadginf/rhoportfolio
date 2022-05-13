@@ -47,7 +47,7 @@ const ImageSlider = ({ slides }) => {
         <div className={styles.imgcontainer}>
           <BiLeftArrow className={styles.leftarrow} onClick={prevSlide} />
           <div align="center" className={styles.header}>
-            <h1>PROJECTS</h1>
+            <h1>Projects</h1>
           </div>
           <BiRightArrow className={styles.rightarrow} onClick={nextSlide} />
           {SliderData.map((slide, index) => {

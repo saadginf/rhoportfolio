@@ -2,7 +2,7 @@
 
 html,
 body {
-  width: 110vw;
+  width: 100%;
   padding: 0;
   margin: 0;
   font-family: "Quicksand", sans-serif;
@@ -26,6 +26,7 @@ a:hover {
   padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #ffff;
+  border-bottom: 1px solid black;
 }
 
 #navbarNav {
@@ -47,12 +48,12 @@ a:hover {
   color: #2093a5;
 }
 
-#navlink {
+#nav-link {
   color: #000000;
   cursor: pointer;
 }
 
-#navlink:hover {
+#nav-link:hover {
   color: #2093a5;
 }
 
@@ -132,12 +133,6 @@ button:hover {
 }
 
 @media screen and (max-width: 480px) {
-
-  body {
-    width: 100vw;
-  
-  }
-
   form {
     width: 120%;
   }
@@ -148,6 +143,6 @@ button:hover {
 
   #social-icons {
     width: 8rem;
-    margin-left: 1.3rem;
+    margin-left:
   }
 }
