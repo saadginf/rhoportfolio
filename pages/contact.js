@@ -4,8 +4,11 @@ import styles from "../styles/Contact.module.css";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
+import { useForm } from "react-hook-form";
 
 export default function Contact() {
+  // const { handleSubmit, register, formState: { errors } } = useForm();
+
   const [val, setVal] = useState();
   const form = useRef();
 
@@ -35,8 +38,6 @@ export default function Contact() {
     );
   };
 
-
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -60,11 +61,6 @@ export default function Contact() {
         }
       );
   };
-
-
-  
-
-
 
   return (
     <div>
@@ -112,6 +108,7 @@ export default function Contact() {
                     <label htmlFor="exampleFormControlInput1">Name</label>
                     <br></br>
                     <input
+                      required
                       name="name"
                       value={val}
                       className="form-control"
@@ -124,6 +121,7 @@ export default function Contact() {
                     </label>
                     <br></br>
                     <input
+                      required
                       name="email"
                       value={val}
                       type="email"
@@ -135,6 +133,7 @@ export default function Contact() {
                     <label htmlFor="exampleFormControlTextarea1">Message</label>
                     <br></br>
                     <textarea
+                      required
                       name="message"
                       value={val}
                       className="form-control"
