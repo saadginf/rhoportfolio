@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { SliderData } from "./SliderData";
 import Image from "next/image";
 import styles from "../styles/ImageSlider.module.css";
-import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
+import { BiLeftArrow, BiRadioCircle, BiRightArrow } from "react-icons/bi";
 import { motion } from "framer-motion";
 
 const demo = {
@@ -20,11 +20,13 @@ const ImageSlider = ({ slides }) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  console.log(current);
 
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
+
+
+
 
   return (
     <motion.div
@@ -45,11 +47,21 @@ const ImageSlider = ({ slides }) => {
     >
       <section className={styles.slider}>
         <div className={styles.imgcontainer}>
-          <BiLeftArrow className={styles.leftarrow} onClick={prevSlide} />
+          <div styles={slides.prev}>
+         <a onClick={prevSlide}className={styles.leftarrow}>
+          {current > 0? (
+          <BiLeftArrow />): null}
+         {current > 0? <span>PREV</span>:null}</a>
+         </div>
+
           <div align="center" className={styles.header}>
-            <h1>Projects</h1>
+            <h1>PROJECTS</h1>
           </div>
-          <BiRightArrow className={styles.rightarrow} onClick={nextSlide} />
+          <a onClick={nextSlide} className={styles.rightarrow}> 
+          {current !== slides.length - 1? <span>NEXT</span>:null}
+          {current !== slides.length - 1? (
+          <BiRightArrow   />) : null}
+          </a>
           {SliderData.map((slide, index) => {
             return (
               <div
