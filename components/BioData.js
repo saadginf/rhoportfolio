@@ -23,7 +23,7 @@ function BioData() {
         <div className={styles.aboutwrapper}>
           <div className={styles.blurb}>
             <p>
-              <br></br>
+            
               <br></br>
               <b>
                 Hi!<br></br>

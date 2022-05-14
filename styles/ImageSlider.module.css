@@ -43,7 +43,7 @@
   display: flex;
   justify-content: center;
   width: 40.6vw;
-  background-color: rgba(105, 187, 219, 0.65);
+  background-color: rgba(105, 187, 219, 0.75);
   font-family: "Quicksand", sans-serif;
   font-size: 30px;
   z-index: 0;
@@ -67,7 +67,7 @@
   justify-content: center;
   width: 40.6vw;
   height: 5vh;
-  background-color: rgba(255, 255, 255, 0.65);
+  background-color: rgba(255, 255, 255, 0.75);
   font-family: "Quicksand", sans-serif;
   font-size: 20px;
   z-index: 0;
@@ -76,20 +76,17 @@
   border-radius: 10px;
 }
 
-.projecttitle p {
-  font-size: 14px;
-  margin-top: -2rem;
-}
+
 
 .projectdesc {
   border-radius: 10px;
   margin-top: 1rem;
   justify-content: center;
   width: 40.6vw;
-  height: auto;
-  background-color: rgba(255, 255, 255, 0.65);
+  height: 20vh;
+  background-color: rgba(255, 255, 255, 0.75);
   font-family: "Quicksand", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   z-index: 0;
   padding-top: 0.6rem;
   text-align: center;

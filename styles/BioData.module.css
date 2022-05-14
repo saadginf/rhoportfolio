@@ -19,7 +19,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 72vh;
+  height: 80vh;
   align-items: center;
   font-family: "Quicksand", sans-serif;
   color: black;
@@ -30,7 +30,7 @@
 }
 
 .blurb p b {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .skills {
@@ -40,7 +40,7 @@
   font-family: "Quicksand", sans-serif;
   color: black;
   text-align: center;
-  height: 72vh;
+  height: 80vh;
   align-items: center;
   padding: 2rem;
   background-color: rgba(105, 187, 219, 0.75);
@@ -74,16 +74,16 @@
 
   .blurb {
     width: 168%;
-    height: 76vh;
+    height: 100vh;
     position: absolute;
     left: -32.9%;
-    top: 8%;
+    top: 0%;
     font-size: 18px;
     padding: 1rem;
   }
 
   .blurb p b {
-    font-size: 14px;
+    font-size: 19px;
   }
 
   .skills {
@@ -93,7 +93,7 @@
     height: 55vh;
     padding: 1rem;
     left: -32.9%;
-    top: 60%;
+    top: 67%;
   }
 
   .skills h2 {

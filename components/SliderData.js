@@ -32,7 +32,7 @@ export const SliderData = [
     id: "tinyapp",
   },
   {
-    image: "/portfolio.webp",
+    image: "/portfolio.png",
     title: "Profile App",
     description: "This very app. For you to get to know more about me!",
     technologies: "React, NextJS, Bootstrap, Framer Motion",

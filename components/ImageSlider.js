@@ -82,7 +82,7 @@ const ImageSlider = ({ slides }) => {
                     <div className={styles.projectdesc}>
                       {slide.description} <br></br>
                       <br></br>
-                      <b>TECHNOLOGIES:</b>
+                      <b>TECHNOLOGIES:</b><br></br>
                       {slide.technologies}
                       <p className={styles.viewapp}>
                         <b>
