@@ -209,13 +209,13 @@
 
   .projecttitle {
     width: 200vw;
-    margin-top: 0rem;
+    margin-top: -0.4rem;
     margin-bottom: 1rem;
   }
 
   .projectcontainer {
     width: 400%;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   .header h1 {

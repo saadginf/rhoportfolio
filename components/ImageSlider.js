@@ -48,20 +48,20 @@ const ImageSlider = ({ slides }) => {
       <section className={styles.slider}>
         <div className={styles.imgcontainer}>
           <div styles={slides.prev}>
-         <a onClick={prevSlide}className={styles.leftarrow}>
+         <span onClick={prevSlide}className={styles.leftarrow}>
           {current > 0? (
           <BiLeftArrow />): null}
-         {current > 0? <span>PREV</span>:null}</a>
+         {current > 0? <span>PREV</span>:null}</span>
          </div>
 
           <div align="center" className={styles.header}>
             <h1>PROJECTS</h1>
           </div>
-          <a onClick={nextSlide} className={styles.rightarrow}> 
+          <span onClick={nextSlide} className={styles.rightarrow}> 
           {current !== slides.length - 1? <span>NEXT</span>:null}
           {current !== slides.length - 1? (
           <BiRightArrow   />) : null}
-          </a>
+          </span>
           {SliderData.map((slide, index) => {
             return (
               <div
