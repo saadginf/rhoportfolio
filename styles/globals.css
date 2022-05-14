@@ -24,17 +24,16 @@ a:hover {
 }
 
 .navbar {
-  height: 3%;
+height: 6rem;
 }
 
-#navbarNav {
+#nav-contents {
+  width: 60vw;
+  display: flex;
   justify-content: center;
-  font-family: "Quicksand", sans-serif;
-  font-size: 18px;
-  align-items: center;
-  position: fixed;
-  top: 0;
+  flex-direction: column;
 }
+
 
 #homelink {
   color: #000000;
@@ -49,7 +48,7 @@ a:hover {
 }
 
 #nav-link {
-  font-size: 25px;
+  font-size: 27px;
   color: #000000;
   cursor: pointer;
 }
@@ -58,12 +57,6 @@ a:hover {
   color: #2093a5;
 }
 
-#social-icons {
-  width: 3%;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
 
 #modal-btn {
   background-color: transparent;
@@ -133,18 +126,19 @@ button:hover {
   width: 100%;
 }
 @media screen and (max-width: 1440px) {
-  #social-icons {
-    margin-left: 3rem;
+  #nav-contents {
+  position: relative;
+  left: 5%
   }
 }
 @media screen and (max-width: 480px) {
   form {
     width: 120%;
   }
-
-  #social-icons {
-    margin-left: 0rem;
-  }
+  #nav-contents {
+    position:unset;
+    left: 0%
+    }
 
   #homelink {
     left: 4%;
