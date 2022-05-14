@@ -30,7 +30,7 @@ function BioData() {
                 <br></br>{" "}
                 <i>
                   My name is Rhoda, and I am a Full Stack Developer from
-                  Toronto, Ontario, Canada.
+                  Toronto, Canada.
                 </i>
               </b>
               <br></br>
