@@ -83,8 +83,8 @@
 .homeimgcontainer {
   position: absolute;
   right: 8.2%;
-  top: 21.5%;
-  height: 52%;
+  top: 26.36%;
+  aspect-ratio: 1/1.16;
   width: 22.5%;
   z-index: 4;
 }
@@ -162,12 +162,16 @@
 }
 
 @media screen and (max-width: 1920px) {
+  .homeimgcontainer {
+    top: 27%
+  }
   .leftsidehome h3 {
     margin-top: -0.5rem;
   }
 }
 
 @media screen and (max-width: 1700px) {
+
   .leftsidehome h1 {
     font-size: 480%;
   }
@@ -222,31 +226,31 @@
   }
 
   .homeimgcontainer {
-    left: 33.7%;
-    top: 9.4%;
-    height: 62.7%;
-    width: 38.1%;
+    left: 38.2%;
+    top: 16.31%;
+    aspect-ratio: 1/1.16;
+    width: 30.1%;
   }
 
   .imgshadowteal {
-    height: 35.5%;
-    width: 38.5%;
-    left: 29%;
+    aspect-ratio: 1/1.16;
+    width: 30.1%;
+    left: 35%;
     top: 31.1%;
   }
 
   .imgshadoworange {
-    height: 35.5%;
-    width: 38.5%;
+    aspect-ratio: 1/1.16;
+    width: 30.1%;
     left: 38%;
-    top: 43.1%;
+    top: 39.5%;
   }
 
   .imgshadowpink {
-    height: 35.5%;
-    width: 38.5%;
-    left: 33.5%;
-    top: 36.9%;
+    aspect-ratio: 1/1.16;
+    width: 30.1%;
+    left: 38%;
+    top: 35.2%;
   }
 }
 
@@ -274,31 +278,31 @@
   }
 
   .homeimgcontainer {
-    left: 32.3%;
+    left: 37.3%;
     top: 14.5%;
-    height: 57.7%;
-    width: 40.1%;
+    aspect-ratio: 1/1.16;
+    width: 35%;
   }
 
   .imgshadowteal {
-    height: 29.5%;
-    width: 40.5%;
-    left: 28%;
-    top: 37.5%;
+    aspect-ratio: 1/1.16;
+    width: 35%;
+    left: 34%;
+    top: 30.5%;
   }
 
   .imgshadoworange {
-    height: 29.5%;
-    width: 40.5%;
-    left: 36%;
-    top: 48%;
+    aspect-ratio: 1/1.16;
+    width: 35%;
+    left: 40.3%;
+    top: 39.8%;
   }
 
   .imgshadowpink {
-    height: 29.5%;
-    width: 40.5%;
-    left: 32%;
-    top: 43%;
+    aspect-ratio: 1/1.16;
+    width: 35%;
+    left: 37.05%;
+    top: 35.2%;
   }
 }
 
@@ -336,31 +340,33 @@
 
   .homeimgcontainer {
     left: 24.9%;
-    top: 18.25%;
-    height: 50%;
+    top: 20.2%;
+    aspect-ratio: 1/1.16;
     width: 60%;
-  }
-
-  .imgshadowteal {
-    height: 33%;
-    width: 60%;
-    left: 19.5%;
-    top: 34.8%;
-  }
-
-  .imgshadoworange {
-    height: 30.5%;
-    width: 60%;
-    left: 29.5%;
-    top: 41.3%;
   }
 
   .imgshadowpink {
-    height: 30.5%;
+     aspect-ratio: 1/1.16;
     width: 60%;
     left: 24.5%;
-    top: 38%;
+    top: 32%;
   }
+
+  .imgshadowteal {
+    aspect-ratio: 1/1.16;
+    width: 60%;
+    left: 19.2%;
+    top: 28.3%;
+  }
+
+  .imgshadoworange {
+    aspect-ratio: 1/1.16;
+    width: 60%;
+    left: 30%;
+    top: 36%;
+  }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -389,10 +395,10 @@
   }
 
   .homeimgcontainer {
+    aspect-ratio: 1/1.16;
     width: 145%;
-    height: 86%;
     left: 35%;
-    top: 44.9%;
+    top: 53.27%;
   }
 
   .imgshadowpink {

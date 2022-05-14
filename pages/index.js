@@ -12,6 +12,10 @@ export default function Home() {
   const [aboutIsOpen, setAboutIsOpen] = useState(false);
   const [projectsIsOpen, setProjectsIsOpen] = useState(false);
 
+
+  const imageSize = {
+    aspectRatio: "100%"
+  }
   return (
     <motion.div
       initial="hidden"
@@ -183,6 +187,7 @@ export default function Home() {
             className={styles.homeimgcontainer}
           >
             <Image
+           
               src="/rho.webp"
               alt="Rhoda Phillips-Osei"
               className={styles.homeimg}
