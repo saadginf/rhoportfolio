@@ -1,17 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500&family=Rock+Salt&family=Satisfy&family=Yellowtail&display=swap");
+
+
 .icons {
   width: 110%;
   display: flex;
   justify-content: space-between;
-margin-top: -0.5%
-}
 
-.getintouch {
-  margin-bottom: -0.5rem;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column
 }
 
 .homebtn {
@@ -185,9 +179,7 @@ margin-top: -0.5%
 }
 
 @media screen and (max-width: 1440px) {
-  .getintouch {
-    /* margin-left: 3.3rem; */
-  }
+
   .leftsidehome .hometext {
     width: 105vw;
     top: 23%;
@@ -258,9 +250,6 @@ margin-top: -0.5%
 }
 
 @media screen and (max-width: 1280px) {
-  .getintouch {
-    /* margin-left: 3.3rem; */
-  }
 
   .leftsidehome .hometext {
     width: 105vw;
@@ -445,7 +434,10 @@ margin-top: -0.5%
     font-size: 25px;
     width: 100%;
   }
-
+.intouch {
+  margin-left:0.5rem;
+  margin-bottom: -0.7rem;
+}
 }
 
 @media screen and (max-width: 300px) {

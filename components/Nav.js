@@ -7,7 +7,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid py-3" id="nav-contents">
-          <div>GET IN TOUCH</div>
+          <div className={styles.intouch}>GET IN TOUCH</div>
           <div>
             <div className={styles.icons}>
               <Link href="https://linkedin.com/in/rphillipsosei">

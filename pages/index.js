@@ -67,7 +67,8 @@ export default function Home() {
                     onRequestClose={() => setAboutIsOpen(false)}
                     style={{
                       overlay: {
-                        backgroundColor: "rgba(60, 60, 60, 0.85)",
+                        backgroundColor: "rgba(73, 73, 73, 0.3)",
+                        backdropFilter: "blur(6px)"
                       },
                       content: {},
                     }}
@@ -92,7 +93,8 @@ export default function Home() {
                       onRequestClose={() => setProjectsIsOpen(false)}
                       style={{
                         overlay: {
-                          backgroundColor: "rgba(60, 60, 60, 0.85)",
+                          backgroundColor: "rgba(73, 73, 73, 0.3)",
+                          backdropFilter: "blur(6px)"
                         },
                         content: {},
                       }}
