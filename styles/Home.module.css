@@ -395,10 +395,10 @@
   }
 
   .homeimgcontainer {
-    aspect-ratio: 1/1.16;
     width: 145%;
+    height: 84%;
     left: 35%;
-    top: 53.27%;
+    top: 46.9%;
   }
 
   .imgshadowpink {
