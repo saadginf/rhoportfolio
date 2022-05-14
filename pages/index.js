@@ -30,7 +30,7 @@ export default function Home() {
       className={styles.homewrapper}
     >
       <Head>
-        <title>Rhoda Phillips- Osei | Web Dev </title>
+        <title>Rhoda Phillips-Osei | Web Developer </title>
       </Head>
       <motion.div
         initial="hidden"

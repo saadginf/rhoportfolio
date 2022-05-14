@@ -15,9 +15,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #2093a5;
-}
 
 * {
   box-sizing: border-box;
@@ -35,18 +32,6 @@ height: 7rem;
 }
 
 
-#homelink {
-  color: #000000;
-  position: absolute;
-  left: 2%;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-#homelink:hover {
-  color: #2093a5;
-}
-
 #nav-link {
   font-size: 27px;
   color: #000000;
@@ -56,6 +41,7 @@ height: 7rem;
 
 #nav-link:hover {
   color: #2093a5;
+
 }
 
 

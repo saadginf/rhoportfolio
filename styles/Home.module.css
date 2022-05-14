@@ -19,6 +19,7 @@
   background-color: #2093a5;
   color: #ffff;
   font-style: italic;
+  border-color: #ffff;
 }
 
 .leftsidehome .hometext {
@@ -389,9 +390,9 @@
 
   .homeimgcontainer {
     width: 145%;
-    height: 84%;
+    height: 86%;
     left: 35%;
-    top: 46.9%;
+    top: 44.9%;
   }
 
   .imgshadowpink {
