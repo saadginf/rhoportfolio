@@ -77,9 +77,7 @@ span .carousel-control-next-icon {
 
 
 @media screen and (max-width: 480px) {
-  form {
-    width: 120%;
-  }
+
   #nav-contents {
     position:unset;
     left: 0%
@@ -93,8 +91,9 @@ span .carousel-control-next-icon {
   #nav-link {
     font-size: 3rem;
   }
-  body {
-    width: 210vw;
+  html {
+    width: 263%;
+   height: 263.5vh;
   }
 
 
