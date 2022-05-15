@@ -55,7 +55,7 @@ const ImageSlider = ({ slides }) => {
          </div>
 
           <div align="center" className={styles.header}>
-            <h2>PROJECTS</h2>
+            <h1>PROJECTS</h1>
           </div>
           <span onClick={nextSlide} className={styles.rightarrow}> 
           {current !== slides.length - 1? <span className={styles.next}>NEXT</span>:null}
