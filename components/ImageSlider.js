@@ -51,14 +51,14 @@ const ImageSlider = ({ slides }) => {
          <span onClick={prevSlide}className={styles.leftarrow}>
           {current > 0? (
           <BiLeftArrow />): null}
-         {current > 0? <span>PREV</span>:null}</span>
+         {current > 0? <span className={styles.prev}>PREV</span>:null}</span>
          </div>
 
           <div align="center" className={styles.header}>
             <h1>PROJECTS</h1>
           </div>
           <span onClick={nextSlide} className={styles.rightarrow}> 
-          {current !== slides.length - 1? <span>NEXT</span>:null}
+          {current !== slides.length - 1? <span className={styles.next}>NEXT</span>:null}
           {current !== slides.length - 1? (
           <BiRightArrow   />) : null}
           </span>

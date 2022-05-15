@@ -26,6 +26,10 @@
   z-index: 1;
 }
 
+.next {
+  display: none
+}
+
 .leftarrow {
   position: absolute;
   top: 50%;
@@ -36,9 +40,11 @@
   cursor: pointer;
   z-index: 1;
 }
-.circle {
-  display: hidden
+
+.prev {
+  display: none
 }
+
 .header h1 {
   font-weight: bold;
   flex-direction: column;
@@ -171,6 +177,14 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .next {
+    display: inline;
+  }
+
+  .prev {
+    display: inline;
+  }
+  
   .rightarrow {
     right: -35%;
     top: 6%;
