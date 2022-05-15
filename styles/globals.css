@@ -91,10 +91,10 @@ span .carousel-control-next-icon {
   #nav-link {
     font-size: 3rem;
   }
-  html {
-    width: 263%;
-   height: 263.5vh;
+  body {
+    width: 210vw;
   }
+
 
 
 }
