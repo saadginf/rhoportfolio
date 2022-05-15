@@ -74,6 +74,8 @@ span .carousel-control-next-icon {
   left: 5%
   }
 }
+
+
 @media screen and (max-width: 480px) {
   form {
     width: 120%;
