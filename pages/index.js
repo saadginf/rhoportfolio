@@ -13,9 +13,7 @@ export default function Home() {
   const [projectsIsOpen, setProjectsIsOpen] = useState(false);
 
 
-  const imageSize = {
-    aspectRatio: "100%"
-  }
+
   return (
     <motion.div
       initial="hidden"
@@ -35,6 +33,7 @@ export default function Home() {
     >
       <Head>
         <title>Rhoda Phillips-Osei | Web Developer </title>
+        <meta name="Rhoda Phillips-Osei, Full Stack Web Developer" content="A portfolio website for Rhoda Phillips-Osei, Full Stack, Front End, and Back End Web Developer"/>
       </Head>
       <motion.div
         initial="hidden"
