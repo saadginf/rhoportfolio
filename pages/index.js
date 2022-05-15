@@ -118,6 +118,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.rightsidehome}>
+          <div className={styles.imagecards}>
           <motion.div
             initial="hidden"
             animate="visible"
@@ -194,6 +195,7 @@ export default function Home() {
               layout="fill"
             ></Image>
           </motion.div>
+          </div>
         </div>
       </motion.div>
     </motion.div>
