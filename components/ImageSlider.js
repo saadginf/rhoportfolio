@@ -84,7 +84,7 @@ const ImageSlider = ({ slides }) => {
                       <Image
                         style={demo}
                         src={slide.image}
-                        alt="Project gif"
+                        alt={slide.title}
                         className={styles.image}
                         width={slide.width}
                         height={slide.height}

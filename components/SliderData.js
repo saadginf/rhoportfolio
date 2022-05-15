@@ -19,6 +19,7 @@ export const SliderData = [
     height: "400px",
     width: "220px",
     id: "moonbeam",
+    
   },
   {
     image: "/tinyappdemo.gif",
