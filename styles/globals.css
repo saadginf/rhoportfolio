@@ -2,11 +2,9 @@
 
 html,
 body {
-  width: 100%;
   padding: 0;
   margin: 0;
   font-family: "Quicksand", sans-serif;
-
   background-color: #ffff;
   background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
 }
@@ -81,8 +79,5 @@ span .carousel-control-next-icon {
 
   #nav-link {
     font-size: 3rem;
-  }
-  body {
-    width: 210vw;
   }
 }

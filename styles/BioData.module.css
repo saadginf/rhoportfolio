@@ -1,20 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Satisfy&display=swap");
 
-.aboutmodule {
-  width: 100%;
-  background-color: transparent;
-  flex-direction: column;
-  display: flex;
-}
-
 .aboutwrapper {
   display: flex;
   flex-direction: row;
   height: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .blurb {
-  width: 65%;
+  width: 40%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -25,7 +20,7 @@
   color: black;
   padding: 3rem;
   margin-right: 1rem;
-  background-color: rgba(238, 174, 63, 0.75);
+  background-color: rgba(238, 174, 63, 0.9);
   border-radius: 10px;
 }
 
@@ -34,7 +29,7 @@
 }
 
 .skills {
-  width: 45%;
+  width: 30%;
   display: flex;
   justify-content: center;
   font-family: "Quicksand", sans-serif;
@@ -47,56 +42,77 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1440px) {
-  .aboutmodule {
+@media screen and (max-width: 1080px) {
+  /* .aboutmodule {
     width: 160%;
     position: absolute;
     right: -34%;
     top: 10%;
+  } */
+  .aboutwrapper {
+    width: 100%;
   }
-
   .skills {
-    width: 30%;
+    width: 35%;
+  }
+  .blurb {
+    width: 55%;
+  }
+  .blurb p {
+    font-size: 15px;
+  }
+  .blurb p b {
+    font-size: 18px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .aboutmodule {
-    width: 100%;
-    position: unset;
-  }
-
+@media screen and (max-width: 753px) {
   .aboutwrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-
-  .blurb {
-    width: 168%;
     height: 100vh;
-    position: absolute;
-    left: -32.9%;
-    top: -3%;
-    font-size: 18px;
-    padding: 1rem;
+    /* border: 10px solid blue; */
+    justify-content: center;
   }
-
-  .blurb p b {
-    font-size: 19px;
-  }
-
   .skills {
-    width: 168%;
-    position: absolute;
-    font-size: 18px;
-    height: 55vh;
-    padding: 1rem;
-    left: -32.9%;
-    top: 67%;
+    width: 90%;
+    height: 30vh;
+    margin-top: 40px;
   }
-
+  .blurb {
+    width: 90%;
+    height: 40vh;
+  }
+  .blurb p {
+    font-size: 10px;
+  }
+  .blurb p b {
+    font-size: 15px;
+  }
+  .skills p b {
+    font-size: 15px;
+  }
+  .skills p {
+    font-size: 10px;
+  }
   .skills h2 {
-    font-size: 16px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .blurb p {
+    font-size: 8px;
+  }
+  .blurb p b {
+    font-size: 14px;
+  }
+  .skills p b {
+    font-size: 14px;
+  }
+  .skills p {
+    font-size: 9px;
+  }
+  .skills h2 {
+    font-size: 15px;
   }
 }

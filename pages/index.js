@@ -77,7 +77,7 @@ export default function Home() {
                       content: {},
                     }}
                   >
-                    <BioData />
+                    <BioData onClickHandler={() => setAboutIsOpen(false)} />
                   </Modal>
                 </div>
               )}
