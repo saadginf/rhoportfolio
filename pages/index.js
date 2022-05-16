@@ -12,8 +12,6 @@ export default function Home() {
   const [aboutIsOpen, setAboutIsOpen] = useState(false);
   const [projectsIsOpen, setProjectsIsOpen] = useState(false);
 
-
-
   return (
     <motion.div
       initial="hidden"
@@ -33,7 +31,10 @@ export default function Home() {
     >
       <Head>
         <title>Rhoda Phillips-Osei | Web Developer </title>
-        <meta name="Rhoda Phillips-Osei, Full Stack Web Developer" content="A portfolio website for Rhoda Phillips-Osei, Full Stack, Front End, and Back End Web Developer"/>
+        <meta
+          name="Rhoda Phillips-Osei, Full Stack Web Developer"
+          content="A portfolio website for Rhoda Phillips-Osei, Full Stack, Front End, and Back End Web Developer"
+        />
       </Head>
       <motion.div
         initial="hidden"
@@ -56,12 +57,12 @@ export default function Home() {
             <h1>RHODA PHILLIPS-OSEI</h1>
             <h3>Full Stack Web Developer</h3>
             <div className={styles.homebtns}>
-              <button
+              <span
                 className={styles.homebtn}
                 onClick={() => setAboutIsOpen(true)}
               >
                 ABOUT
-              </button>
+              </span>
               {setAboutIsOpen && (
                 <div className={styles.modalpositioning}>
                   <Modal
@@ -71,7 +72,7 @@ export default function Home() {
                     style={{
                       overlay: {
                         backgroundColor: "rgba(73, 73, 73, 0.3)",
-                        backdropFilter: "blur(6px)"
+                        backdropFilter: "blur(6px)",
                       },
                       content: {},
                     }}
@@ -81,12 +82,12 @@ export default function Home() {
                 </div>
               )}
 
-              <button
+              <span
                 className={styles.homebtn}
                 onClick={() => setProjectsIsOpen(true)}
               >
                 PROJECTS
-              </button>
+              </span>
               {setProjectsIsOpen && (
                 <div className={styles.aboutwrapper}>
                   <div className={styles.modalpositioning}>
@@ -97,7 +98,7 @@ export default function Home() {
                       style={{
                         overlay: {
                           backgroundColor: "rgba(73, 73, 73, 0.3)",
-                          backdropFilter: "blur(6px)"
+                          backdropFilter: "blur(6px)",
                         },
                         content: {},
                       }}
@@ -118,82 +119,81 @@ export default function Home() {
         </div>
         <div className={styles.rightsidehome}>
           <div className={styles.imagecards}>
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                opacity: 0,
-              },
-              visible: {
-                opacity: 0.8,
-                transition: {
-                  delay: 1.2,
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  opacity: 0,
                 },
-              },
-            }}
-            className={styles.imgshadowpink}
-          ></motion.div>
+                visible: {
+                  opacity: 0.8,
+                  transition: {
+                    delay: 1.2,
+                  },
+                },
+              }}
+              className={styles.imgshadowpink}
+            ></motion.div>
 
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                opacity: 0,
-              },
-              visible: {
-                opacity: 0.5,
-                transition: {
-                  delay: 1.3,
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  opacity: 0,
                 },
-              },
-            }}
-            className={styles.imgshadoworange}
-          ></motion.div>
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                opacity: 0,
-              },
-              visible: {
-                opacity: 0.5,
-                transition: {
-                  delay: 1.4,
+                visible: {
+                  opacity: 0.5,
+                  transition: {
+                    delay: 1.3,
+                  },
                 },
-              },
-            }}
-            className={styles.imgshadowteal}
-          ></motion.div>
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={{
-              hidden: {
-                opacity: 0,
-                scale: 0.97,
-              },
-              visible: {
-                opacity: 1,
-                scale: 1,
-                transition: {
-                  delay: 1.5,
-                  duration: 0.3,
+              }}
+              className={styles.imgshadoworange}
+            ></motion.div>
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  opacity: 0,
                 },
-              },
-            }}
-            className={styles.homeimgcontainer}
-          >
-            <Image
-           
-              src="/rho.webp"
-              alt="Rhoda Phillips-Osei"
-              className={styles.homeimg}
-              layout="fill"
-            ></Image>
-          </motion.div>
+                visible: {
+                  opacity: 0.5,
+                  transition: {
+                    delay: 1.4,
+                  },
+                },
+              }}
+              className={styles.imgshadowteal}
+            ></motion.div>
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {
+                  opacity: 0,
+                  scale: 0.97,
+                },
+                visible: {
+                  opacity: 1,
+                  scale: 1,
+                  transition: {
+                    delay: 1.5,
+                    duration: 0.3,
+                  },
+                },
+              }}
+              className={styles.homeimgcontainer}
+            >
+              <Image
+                src="/rho.webp"
+                alt="Rhoda Phillips-Osei"
+                className={styles.homeimg}
+                layout="fill"
+              ></Image>
+            </motion.div>
           </div>
         </div>
       </motion.div>

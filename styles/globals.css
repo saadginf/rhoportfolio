@@ -6,6 +6,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Quicksand", sans-serif;
+
   background-color: #ffff;
   background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
 }
@@ -15,13 +16,12 @@ a {
   text-decoration: none;
 }
 
-
 * {
   box-sizing: border-box;
 }
 
 .navbar {
-height: 7rem;
+  height: 7rem;
 }
 
 #nav-contents {
@@ -31,19 +31,15 @@ height: 7rem;
   flex-direction: column;
 }
 
-
 #nav-link {
   font-size: 27px;
   color: #000000;
   cursor: pointer;
-  
 }
 
 #nav-link:hover {
   color: #2093a5;
-
 }
-
 
 #modal-btn {
   background-color: transparent;
@@ -68,20 +64,19 @@ span .carousel-control-next-icon {
   flex-direction: column;
   width: 100%;
 }
+
 @media screen and (max-width: 1440px) {
   #nav-contents {
-  position: relative;
-  left: 5%
+    position: relative;
+    left: 5%;
   }
 }
 
-
 @media screen and (max-width: 480px) {
-
   #nav-contents {
-    position:unset;
-    left: 0%
-    }
+    position: unset;
+    left: 0%;
+  }
 
   #homelink {
     left: 4%;
@@ -94,7 +89,4 @@ span .carousel-control-next-icon {
   body {
     width: 210vw;
   }
-
-
-
 }
