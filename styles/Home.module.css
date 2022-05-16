@@ -1,7 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500&family=Rock+Salt&family=Satisfy&family=Yellowtail&display=swap");
 
 /* saaaaaaaaad */
-
+.homeimg {
+  z-index: 1000;
+}
+.imagecards {
+  height: 350px;
+  width: 350px;
+  margin-top: -150px;
+  position: relative;
+}
+.blue {
+  background-color: #2093a5;
+  border-radius: 25px;
+  position: absolute;
+  height: 280px;
+  width: 280px;
+  top: 40px;
+  z-index: 1;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+}
+.pink {
+  border: 3px solid black;
+  border-radius: 25px;
+  background-color: pink;
+  position: absolute;
+  height: 270px;
+  width: 280px;
+  left: 30px;
+  top: 83px;
+  z-index: 3;
+  outline-offset: 12px;
+  outline: 5px dotted black;
+  background-image: url(https://www.transparenttextures.com/patterns/cartographer.png);
+}
+.orange {
+  background-color: orange;
+  border-radius: 25px;
+  position: absolute;
+  height: 270px;
+  width: 280px;
+  right: 2px;
+  top: 115px;
+  z-index: 2;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
 .content {
   height: 100vh;
   display: flex;
@@ -65,14 +110,14 @@
   margin-top: 1rem;
   display: flex;
 }
+
 .rightsidehome {
   height: 100%;
-
   width: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   z-index: 0;
 }
 
@@ -81,59 +126,6 @@
   width: 110%;
   display: flex;
   justify-content: space-between;
-}
-
-.homeimgcontainer {
-  position: absolute;
-  right: 8.2%;
-  top: 21.5%;
-  height: 52%;
-  width: 22.5%;
-  z-index: 4;
-}
-
-.imgshadowpink {
-  z-index: 100;
-  border: 3px solid black;
-  border-radius: 25px;
-  background-color: pink;
-  position: absolute;
-  height: 37.4%;
-  width: 22.5%;
-  right: 8.4%;
-  top: 36.3%;
-  z-index: 3;
-  outline-offset: 12px;
-  outline: 5px dotted black;
-  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
-}
-
-.imgshadoworange {
-  z-index: 100;
-  background-color: orange;
-  border-radius: 25px;
-  position: absolute;
-  height: 37.4%;
-  width: 22.5%;
-  right: 6.2%;
-  top: 40%;
-  z-index: 2;
-  border-bottom: 3px solid black;
-  border-right: 3px solid black;
-}
-
-.imgshadowteal {
-  z-index: 100;
-  background-color: #2093a5;
-  border-radius: 25px;
-  position: absolute;
-  height: 37.4%;
-  width: 22.5%;
-  right: 10.8%;
-  z-index: 1;
-  top: 32.5%;
-  border-top: 3px solid black;
-  border-left: 3px solid black;
 }
 
 .modal {
@@ -179,35 +171,9 @@
     align-items: flex-end;
   }
   .rightsidehome {
-    height: 10%;
-  }
-  .homeimgcontainer {
-    left: 33.7%;
-    top: 17.4%;
-    height: 42.7%;
-    width: 29.1%;
+    height: 40%;
   }
 
-  .imgshadowteal {
-    height: 35.5%;
-    width: 30.1%;
-    left: 29%;
-    top: 29.1%;
-  }
-
-  .imgshadoworange {
-    height: 35.5%;
-    width: 30.1%;
-    left: 38%;
-    top: 40.1%;
-  }
-
-  .imgshadowpink {
-    height: 35.5%;
-    width: 30.1%;
-    left: 33.5%;
-    top: 33.9%;
-  }
   .leftsidehome h1 {
     text-align: center;
   }
@@ -222,63 +188,9 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .homeimgcontainer {
-    left: 33.7%;
-    top: 14.4%;
-    height: 50.7%;
-    width: 38.1%;
-  }
-
-  .imgshadowteal {
-    height: 32.5%;
-    width: 38.5%;
-    left: 29%;
-    top: 25.1%;
-  }
-
-  .imgshadoworange {
-    height: 35.5%;
-    width: 38.5%;
-    left: 38%;
-    top: 38.1%;
-  }
-
-  .imgshadowpink {
-    height: 35.5%;
-    width: 38.5%;
-    left: 33.5%;
-    top: 29.9%;
-  }
 }
 
 @media screen and (max-width: 1280px) {
-  .homeimgcontainer {
-    left: 32.3%;
-    top: 14.5%;
-    height: 57.7%;
-    width: 40.1%;
-  }
-
-  .imgshadowteal {
-    height: 29.5%;
-    width: 40.5%;
-    left: 28%;
-    top: 37.5%;
-  }
-
-  .imgshadoworange {
-    height: 29.5%;
-    width: 40.5%;
-    left: 36%;
-    top: 48%;
-  }
-
-  .imgshadowpink {
-    height: 29.5%;
-    width: 40.5%;
-    left: 32%;
-    top: 43%;
-  }
   .leftsidehome h1 {
     text-align: center;
     font-size: 40px;
@@ -297,66 +209,11 @@
   .leftsidehome {
     width: 100%;
   }
-
-  .homeimgcontainer {
-    left: 24.9%;
-    top: 18.25%;
-    height: 50%;
-    width: 60%;
-  }
-
-  .imgshadowteal {
-    height: 33%;
-    width: 60%;
-    left: 19.5%;
-    top: 34.8%;
-  }
-
-  .imgshadoworange {
-    height: 30.5%;
-    width: 60%;
-    left: 29.5%;
-    top: 41.3%;
-  }
-
-  .imgshadowpink {
-    height: 30.5%;
-    width: 60%;
-    left: 24.5%;
-    top: 38%;
-  }
 }
 
 @media screen and (max-width: 480px) {
-  .homeimgcontainer {
-    width: 145%;
-    height: 86%;
-    left: 35%;
-    top: 44.9%;
-  }
-
-  .imgshadowpink {
-    height: 53.5%;
-    width: 145%;
-    left: 34.1%;
-    top: 77.9%;
-  }
-
-  .imgshadoworange {
-    height: 53.5%;
-    width: 145%;
-    left: 47.2%;
-    top: 83%;
-  }
-
-  .imgshadowteal {
-    height: 53.5%;
-    width: 145%;
-    left: 19.5%;
-    top: 72.5%;
-  }
   .content {
-    height: 170vh;
+    height: 100vh;
   }
 }
 

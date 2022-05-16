@@ -133,7 +133,7 @@ export default function Home() {
                   },
                 },
               }}
-              className={styles.imgshadowpink}
+              className={styles.blue}
             ></motion.div>
 
             <motion.div
@@ -150,7 +150,7 @@ export default function Home() {
                   },
                 },
               }}
-              className={styles.imgshadoworange}
+              className={styles.orange}
             ></motion.div>
             <motion.div
               initial="hidden"
@@ -166,7 +166,7 @@ export default function Home() {
                   },
                 },
               }}
-              className={styles.imgshadowteal}
+              className={styles.pink}
             ></motion.div>
             <motion.div
               initial="hidden"
@@ -191,7 +191,10 @@ export default function Home() {
                 src="/rho.webp"
                 alt="Rhoda Phillips-Osei"
                 className={styles.homeimg}
-                layout="fill"
+                width="100%"
+                height="100%"
+                layout="responsive"
+                objectFit="contain"
               ></Image>
             </motion.div>
           </div>

@@ -66,10 +66,6 @@ span .carousel-control-next-icon {
 }
 
 @media screen and (max-width: 1440px) {
-  #nav-contents {
-    position: relative;
-    left: 5%;
-  }
 }
 
 @media screen and (max-width: 480px) {
